@@ -45,3 +45,44 @@
     </header>
     
     <!-- ============================================== HEADER : END ============================================== -->
+    <div class="breadcrumb">
+        <div class="container">
+            <div class="breadcrumb-inner">
+                <?php
+                $ret=mysqli_query($con,"select category.categoryName as catname,subCategory.subcategory as subcatname,products.productName as pname from products join category on category.id=products.category join subcategory on subcategory.id=products.subCategory where products.id='$pid'");
+                while ($rw=mysqli_fetch_array($ret)) {
+
+                ?>
+                <ul class="list-inline list-unstyled">
+                    <li><a href="index.php">Home</a></li>
+                    <li><?php echo htmlentities($rw['catname']);?></a></li>
+                    <li><?php echo htmlentities($rw['subcatname']);?></li>
+                    <li class='active'><?php echo htmlentities($rw['pname']);?></li>
+                </ul>
+                <?php }?>
+            </div><!-- /.breadcrumb-inner -->
+        </div><!-- /.container -->
+    </div><!-- /.breadcrumb -->
+    <div class="body-content outer-top-xs">
+	    <div class='container'>
+		    <div class='row single-product outer-bottom-sm '>
+			    <div class='col-md-3 sidebar'>
+				    <div class="sidebar-module-container">
+<!-- ==============================================CATEGORY============================================== -->
+                        <div class="sidebar-widget outer-bottom-xs wow fadeInUp">
+                            <h3 class="section-title">Category</h3>
+                                <div class="sidebar-widget-body m-t-10">
+                                    <div class="accordion">
+                                        <?php $sql=mysqli_query($con,"select id,categoryName  from category");while($row=mysqli_fetch_array($sql)){?>
+                                        <div class="accordion-group">
+                                            <div class="accordion-heading">
+                                                <a href="category.php?cid=<?php echo $row['id'];?>"  class="accordion-toggle collapsed">
+                                                <?php echo $row['categoryName'];?>
+                                                </a>
+                                            </div>
+	                                    </div>
+                                                <?php } ?>
+	                                </div>
+	                            </div>
+                        </div>
+	<!-- ============================================== CATEGORY : END ============================================== -->
