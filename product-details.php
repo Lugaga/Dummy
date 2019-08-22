@@ -27,7 +27,7 @@ header('location:login.php');
 else
 {
 mysqli_query($con,"insert into wishlist(userId,productId) values('".$_SESSION['id']."','$pid')");
-echo "<script>alert('Product aaded in wishlist');</script>";
+echo "<script>alert('Product added to wishlist');</script>";
 header('location:my-wishlist.php');
 
 }
