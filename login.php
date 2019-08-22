@@ -68,3 +68,36 @@ $("#loaderIcon").hide();
 error:function (){}
 });
 }
+</script>
+
+
+
+	</head>
+    <body class="cnt-home">
+	
+		
+	
+		<!-- ============================================== HEADER ============================================== -->
+<header class="header-style-1">
+
+	<!-- ============================================== TOP MENU ============================================== -->
+<?php include('includes/top-header.php');?>
+<!-- ============================================== TOP MENU : END ============================================== -->
+<?php include('includes/main-header.php');?>
+	<!-- ============================================== NAVBAR ============================================== -->
+<?php include('includes/menu-bar.php');?>
+<!-- ============================================== NAVBAR : END ============================================== -->
+
+</header>
+
+<!-- ============================================== HEADER : END ============================================== -->
+<div class="breadcrumb">
+	<div class="container">
+		<div class="breadcrumb-inner">
+			<ul class="list-inline list-unstyled">
+				<li><a href="home.html">Home</a></li>
+				<li class='active'>Authentication</li>
+			</ul>
+		</div><!-- /.breadcrumb-inner -->
+	</div><!-- /.container -->
+</div><!-- /.breadcrumb -->
