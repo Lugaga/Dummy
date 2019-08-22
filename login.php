@@ -101,3 +101,15 @@ error:function (){}
 		</div><!-- /.breadcrumb-inner -->
 	</div><!-- /.container -->
 </div><!-- /.breadcrumb -->
+
+<div class="body-content outer-top-bd">
+	<div class="container">
+		<div class="sign-in-page inner-bottom-sm">
+			<div class="row">
+				<!-- Sign-in -->			
+<div class="col-md-6 col-sm-6 sign-in">
+	<h4 class="">sign in</h4>
+	<p class="">Hello, Welcome to your account.</p>
+	<form class="register-form outer-top-xs" method="post">
+	<span style="color:red;" >
+<?php
