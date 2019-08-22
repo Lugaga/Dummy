@@ -85,4 +85,20 @@
 	                                </div>
 	                            </div>
                         </div>
-	<!-- ============================================== CATEGORY : END ============================================== -->
+<!-- ============================================== CATEGORY : END ============================================== -->
+<!-- ============================================== HOT DEALS ============================================== -->
+<div class="sidebar-widget hot-deals wow fadeInUp">
+	<h3 class="section-title">hot deals</h3>
+	<div class="owl-carousel sidebar-carousel custom-carousel owl-theme outer-top-xs">
+        <?php
+        $ret=mysqli_query($con,"select * from products order by rand() limit 4 ");
+        while ($rws=mysqli_fetch_array($ret)) {
+        ?>
+        <div class="item">
+			<div class="products">
+				<div class="hot-deal-wrapper">
+					<div class="image">
+						<img src="admin/productimages/<?php echo htmlentities($rws['productName']);?>/<?php echo htmlentities($rws['productImage1']);?>"  width="200" height="334" alt="">
+					</div>
+							
+				</div><!-- /.hot-deal-wrapper -->
