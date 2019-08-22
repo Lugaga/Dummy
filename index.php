@@ -2,8 +2,8 @@
 <html lang="en">
 	<head>
 		<!-- Meta -->
-		<meta charset="utf-8">
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta chaKES.et="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; chaKES.et=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 		<meta name="description" content="">
 		<meta name="author" content="">
@@ -70,13 +70,13 @@
 <div id="hero" class="homepage-slider3">
 	<div id="owl-main" class="owl-carousel owl-inner-nav owl-ui-sm">
 		<div class="full-width-slider">	
-			<div class="item" style="background-image: url(assets/images/sliders/slider1.png);">
+			<div class="item" style="background-image: url(assets/images/slideKES./slider1.png);">
 				<!-- /.container-fluid -->
 			</div><!-- /.item -->
 		</div><!-- /.full-width-slider -->
 	    
 	    <div class="full-width-slider">
-			<div class="item full-width-slider" style="background-image: url(assets/images/sliders/slider2.png);">
+			<div class="item full-width-slider" style="background-image: url(assets/images/slideKES./slider2.png);">
 			</div><!-- /.item -->
 		</div><!-- /.full-width-slider -->
 
@@ -112,7 +112,7 @@
 							<h4 class="info-box-heading orange">free shipping</h4>
 						</div>
 					</div>
-					<h6 class="text">free ship-on oder over Rs. 600.00</h6>	
+					<h6 class="text">free ship-on oder over KES.. 600.00</h6>	
 				</div>
 			</div><!-- .col -->
 
@@ -184,8 +184,8 @@ while ($row=mysqli_fetch_array($ret))
 
 			<div class="product-price">	
 				<span class="price">
-					Rs.<?php echo htmlentities($row['productPrice']);?>			</span>
-										     <span class="price-before-discount">Rs.<?php echo htmlentities($row['productPriceBeforeDiscount']);?>	</span>
+					KES..<?php echo htmlentities($row['productPrice']);?>			</span>
+										     <span class="price-before-discount">KES..<?php echo htmlentities($row['productPriceBeforeDiscount']);?>	</span>
 									
 			</div><!-- /.product-price -->
 			
@@ -238,8 +238,8 @@ while ($row=mysqli_fetch_array($ret))
 
 			<div class="product-price">	
 				<span class="price">
-					Rs. <?php echo htmlentities($row['productPrice']);?>			</span>
-										     <span class="price-before-discount">Rs.<?php echo htmlentities($row['productPriceBeforeDiscount']);?></span>
+					KES.. <?php echo htmlentities($row['productPrice']);?>			</span>
+										     <span class="price-before-discount">KES..<?php echo htmlentities($row['productPriceBeforeDiscount']);?></span>
 									
 			</div><!-- /.product-price -->
 			
@@ -292,8 +292,8 @@ while ($row=mysqli_fetch_array($ret))
 
 			<div class="product-price">	
 				<span class="price">
-					Rs.<?php echo htmlentities($row['productPrice']);?>			</span>
-										     <span class="price-before-discount">Rs.<?php echo htmlentities($row['productPriceBeforeDiscount']);?></span>
+					KES..<?php echo htmlentities($row['productPrice']);?>			</span>
+										     <span class="price-before-discount">KES..<?php echo htmlentities($row['productPriceBeforeDiscount']);?></span>
 									
 			</div>
 			
