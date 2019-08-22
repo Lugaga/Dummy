@@ -113,3 +113,42 @@ error:function (){}
 	<form class="register-form outer-top-xs" method="post">
 	<span style="color:red;" >
 <?php
+echo htmlentities($_SESSION['errmsg']);
+?>
+<?php
+echo htmlentities($_SESSION['errmsg']="");
+?>
+	</span>
+		<div class="form-group">
+		    <label class="info-title" for="exampleInputEmail1">Email Address <span>*</span></label>
+		    <input type="email" name="email" class="form-control unicase-form-control text-input" id="exampleInputEmail1" >
+		</div>
+	  	<div class="form-group">
+		    <label class="info-title" for="exampleInputPassword1">Password <span>*</span></label>
+		 <input type="password" name="password" class="form-control unicase-form-control text-input" id="exampleInputPassword1" >
+		</div>
+		<div class="radio outer-xs">
+		  	<a href="forgot-password.php" class="forgot-password pull-right">Forgot your Password?</a>
+		</div>
+	  	<button type="submit" class="btn-upper btn btn-primary checkout-page-button" name="login">Login</button>
+	</form>					
+</div>
+
+<!-- Sign-in -->
+
+<!-- create a new account -->
+<div class="col-md-6 col-sm-6 create-new-account">
+	<h4 class="checkout-subtitle">create a new account</h4>
+	<p class="text title-tag-line">Create your own Shopping account.</p>
+	<form class="register-form outer-top-xs" role="form" method="post" name="register" onSubmit="return valid();">
+<div class="form-group">
+	    	<label class="info-title" for="fullname">Full Name <span>*</span></label>
+	    	<input type="text" class="form-control unicase-form-control text-input" id="fullname" name="fullname" required="required">
+	  	</div>
+
+
+		<div class="form-group">
+	    	<label class="info-title" for="exampleInputEmail2">Email Address <span>*</span></label>
+	    	<input type="email" class="form-control unicase-form-control text-input" id="email" onBlur="userAvailability()" name="emailid" required >
+	    	       <span id="user-availability-status1" style="font-size:12px;"></span>
+	  	</div>
