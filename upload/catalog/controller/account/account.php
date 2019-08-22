@@ -29,10 +29,26 @@ class ControllerAccountAccount extends Controller {
 		} else {
 			$data['success'] = '';
         } 
-        
+
         $data['edit'] = $this->url->link('account/edit', '', true);
 		$data['password'] = $this->url->link('account/password', '', true);
 		$data['address'] = $this->url->link('account/address', '', true);
 		
-		$data['credit_cards'] = array();
+        $data['credit_cards'] = array();
+        
+        $files = glob(DIR_APPLICATION . 'controller/extension/credit_card/*.php');
+		
+		foreach ($files as $file) {
+			$code = basename($file, '.php');
+			
+			if ($this->config->get('payment_' . $code . '_status') && $this->config->get('payment_' . $code . '_card')) {
+				$this->load->language('extension/credit_card/' . $code, 'extension');
+
+				$data['credit_cards'][] = array(
+					'name' => $this->language->get('extension')->get('heading_title'),
+					'href' => $this->url->link('extension/credit_card/' . $code, '', true)
+				);
+			}
+		}
+		
 		
