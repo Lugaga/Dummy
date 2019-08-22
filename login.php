@@ -32,7 +32,6 @@
 		<link href="assets/css/red.css" rel="alternate stylesheet" title="Red color">
 		<link href="assets/css/orange.css" rel="alternate stylesheet" title="Orange color">
 		<link href="assets/css/dark-green.css" rel="alternate stylesheet" title="Darkgreen color">
-		<!-- Demo Purpose Only. Should be removed in production : END -->
 
 		
 		<!-- Icons/Glyphs -->
@@ -43,3 +42,29 @@
 		
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="assets/images/favicon.ico">
+<script type="text/javascript">
+function valid()
+{
+ if(document.register.password.value!= document.register.confirmpassword.value)
+{
+alert("Password and Confirm Password Field do not match  !!");
+document.register.confirmpassword.focus();
+return false;
+}
+return true;
+}
+</script>
+    	<script>
+function userAvailability() {
+$("#loaderIcon").show();
+jQuery.ajax({
+url: "check_availability.php",
+data:'email='+$("#email").val(),
+type: "POST",
+success:function(data){
+$("#user-availability-status1").html(data);
+$("#loaderIcon").hide();
+},
+error:function (){}
+});
+}
