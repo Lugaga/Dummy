@@ -116,3 +116,69 @@
 							</div><!-- /.product-price -->
 							
 				</div><!-- /.product-info -->
+                <div class="cart clearfix animate-effect">
+							<div class="action">
+								
+								<div class="add-cart-button btn-group">
+									<button class="btn btn-primary icon" data-toggle="dropdown" type="button">
+								<i class="fa fa-shopping-cart"></i>													
+							</button>
+						<a href="product-details.php?page=product&action=add&id=<?php echo $rws['id']; ?>" class="lnk btn btn-primary">Add to cart</a>
+													
+															
+								</div>
+								
+							</div><!-- /.action -->
+						</div><!-- /.cart -->
+					</div>	
+				</div>		
+					<?php } ?>        
+						
+	    
+    </div><!-- /.sidebar-widget -->
+</div>
+
+<!-- ============================================== COLOR: END ============================================== -->
+</div>
+			</div><!-- /.sidebar -->
+<?php 
+$ret=mysqli_query($con,"select * from products where id='$pid'");
+while($row=mysqli_fetch_array($ret))
+{
+
+?>
+<div class='col-md-9'>
+				<div class="row  wow fadeInUp">
+					     <div class="col-xs-12 col-sm-6 col-md-5 gallery-holder">
+    <div class="product-item-holder size-big single-product-gallery small-gallery">
+
+        <div id="owl-single-product">
+
+ <div class="single-product-gallery-item" id="slide1">
+                <a data-lightbox="image-1" data-title="<?php echo htmlentities($row['productName']);?>" href="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>">
+                    <img class="img-responsive" alt="" src="assets/images/blank.gif" data-echo="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>" width="370" height="350" />
+                </a>
+            </div>
+
+
+
+
+            <div class="single-product-gallery-item" id="slide1">
+                <a data-lightbox="image-1" data-title="<?php echo htmlentities($row['productName']);?>" href="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>">
+                    <img class="img-responsive" alt="" src="assets/images/blank.gif" data-echo="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>" width="370" height="350" />
+                </a>
+            </div><!-- /.single-product-gallery-item -->
+
+            <div class="single-product-gallery-item" id="slide2">
+                <a data-lightbox="image-1" data-title="Gallery" href="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage2']);?>">
+                    <img class="img-responsive" alt="" src="assets/images/blank.gif" data-echo="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage2']);?>" />
+                </a>
+            </div><!-- /.single-product-gallery-item -->
+
+            <div class="single-product-gallery-item" id="slide3">
+                <a data-lightbox="image-1" data-title="Gallery" href="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage3']);?>">
+                    <img class="img-responsive" alt="" src="assets/images/blank.gif" data-echo="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage3']);?>" />
+                </a>
+            </div>
+
+        </div><!-- /.single-product-slider -->
