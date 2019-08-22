@@ -168,6 +168,73 @@ while ($row=mysqli_fetch_array($ret))
 
 									   
 </div><!-- /.product-image -->
+<div class="product-info text-left">
+			<h3 class="name"><a href="product-details.php?pid=<?php echo htmlentities($row['id']);?>"><?php echo htmlentities($row['productName']);?></a></h3>
+			<div class="rating rateit-small"></div>
+			<div class="description"></div>
+
+			<div class="product-price">	
+				<span class="price">
+					Rs.<?php echo htmlentities($row['productPrice']);?>			</span>
+										     <span class="price-before-discount">Rs.<?php echo htmlentities($row['productPriceBeforeDiscount']);?>	</span>
+									
+			</div><!-- /.product-price -->
+			
+		</div><!-- /.product-info -->
+					<div class="action"><a href="index.php?page=product&action=add&id=<?php echo $row['id']; ?>" class="lnk btn btn-primary">Add to Cart</a></div>
+			</div><!-- /.product -->
+      
+			</div><!-- /.products -->
+		</div><!-- /.item -->
+	<?php } ?>
+
+			</div><!-- /.home-owl-carousel -->
+					</div><!-- /.product-slider -->
+				</div>
+
+
+
+
+	<div class="tab-pane" id="books">
+					<div class="product-slider">
+						<div class="owl-carousel home-owl-carousel custom-carousel owl-theme">
+		<?php
+$ret=mysqli_query($con,"select * from products where category=3");
+while ($row=mysqli_fetch_array($ret)) 
+{
+	# code...
+	
+
+
+?>
+<div class="item item-carousel">
+			<div class="products">
+				
+	<div class="product">		
+		<div class="product-image">
+			<div class="image">
+				<a href="product-details.php?pid=<?php echo htmlentities($row['id']);?>">
+				<img  src="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>" data-echo="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>"  width="180" height="300" alt=""></a>
+			</div><!-- /.image -->			
+
+			                        		   
+		</div><!-- /.product-image -->
+			
+		<div class="item item-carousel">
+			<div class="products">
+				
+	<div class="product">		
+		<div class="product-image">
+			<div class="image">
+				<a href="product-details.php?pid=<?php echo htmlentities($row['id']);?>">
+				<img  src="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>" data-echo="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>"  width="180" height="300" alt=""></a>
+			</div><!-- /.image -->			
+
+			                        		   
+		</div><!-- /.product-image -->
+			
+		
+
 
 ?>
 
