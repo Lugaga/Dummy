@@ -28,6 +28,7 @@ if(isset($_GET['pid']) && $_GET['action']=="wishlist" ){
     {
     mysqli_query($con,"insert into wishlist(userId,productId) values('".$_SESSION['id']."','$pid')");
     $_SESSION['id']."','$pid')");
+echo "<script>alert('Product added to your wishlist');</script>";
 header('location:my-wishlist.php');
 
 }
