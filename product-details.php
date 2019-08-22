@@ -42,6 +42,4 @@ if(isset($_POST['submit']))
 	$review=$_POST['review'];
 	mysqli_query($con,"insert into productreviews(productId,quality,price,value,name,summary,review) values('$pid','$qty','$price','$value','$name','$summary','$review')");
 }
-
-
 ?>
