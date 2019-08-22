@@ -41,12 +41,23 @@
 		<link rel="shortcut icon" href="assets/images/favicon.ico">
 
 	</head>
-
-
-
-
-
+	<body class="cnt-home">
 	
+		
+	
+	<!-- ============================================== HEADER ============================================== -->
+<header class="header-style-1">
+<?php include('includes/top-header.php');?>
+<?php include('includes/main-header.php');?>
+<?php include('includes/menu-bar.php');?>
+</header>
+
+<!-- ============================================== HEADER : END ============================================== -->
+
+
+
+
+
 </html>
 	
 		
