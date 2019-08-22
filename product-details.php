@@ -102,3 +102,17 @@
 					</div>
 							
 				</div><!-- /.hot-deal-wrapper -->
+                <div class="product-info text-left m-t-20">
+							<h3 class="name"><a href="product-details.php?pid=<?php echo htmlentities($rws['id']);?>"><?php echo htmlentities($rws['productName']);?></a></h3>
+							<div class="rating rateit-small"></div>
+
+							<div class="product-price">	
+								<span class="price">
+									Rs. <?php echo htmlentities($rws['productPrice']);?>.00
+								</span>
+									
+							    <span class="price-before-discount">Rs.<?php echo htmlentities($row['productPriceBeforeDiscount']);?></span>					
+							
+							</div><!-- /.product-price -->
+							
+				</div><!-- /.product-info -->
