@@ -136,6 +136,37 @@
 	
 </div><!-- /.info-boxes -->
 <!-- ============================================== INFO BOXES : END ============================================== -->
+<!-- ============================================== SCROLL TABS ============================================== -->
+<div id="product-tabs-slider" class="scroll-tabs inner-bottom-vs  wow fadeInUp">
+			<div class="more-info-tab clearfix">
+			   <h3 class="new-product-title pull-left">Featured Products</h3>
+				<ul class="nav nav-tabs nav-tab-line pull-right" id="new-products-1">
+					<li class="active"><a href="#all" data-toggle="tab">All</a></li>
+					<li><a href="#books" data-toggle="tab">Books</a></li>
+					<li><a href="#furniture" data-toggle="tab">Furniture</a></li>
+				</ul><!-- /.nav-tabs -->
+			</div>
+
+			<div class="tab-content outer-top-xs">
+				<div class="tab-pane in active" id="all">			
+					<div class="product-slider">
+						<div class="owl-carousel home-owl-carousel custom-carousel owl-theme" data-item="4">
+<?php
+$ret=mysqli_query($con,"select * from products");
+while ($row=mysqli_fetch_array($ret)) 
+{
+	# code...
+
+
+?>
+
+
+
+
+
+
+
+
 
 </html>
 	
