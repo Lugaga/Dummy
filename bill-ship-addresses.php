@@ -6,3 +6,14 @@ if(strlen($_SESSION['login'])==0)
     {   
 header('location:index.php');
 }
+else{
+	// code for billing address updation
+	if(isset($_POST['update']))
+	{
+		$baddress=$_POST['billingaddress'];
+		$bstate=$_POST['bilingstate'];
+		$bcity=$_POST['billingcity'];
+		$bpincode=$_POST['billingpincode'];
+		$query=mysqli_query($con,"update users set billingAddress='$baddress',billingState='$bstate',billingCity='$bcity',billingPincode='$bpincode' where id='".$_SESSION['id']."'");
+		if($query)
+		{
