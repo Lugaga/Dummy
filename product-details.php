@@ -34,17 +34,12 @@
 	
     <header class="header-style-1">
     
-        <!-- ============================================== TOP MENU ============================================== -->
+        <!-- ======TOP MENU ======= -->
     <?php include('includes/top-header.php');?>
-    <!-- ============================================== TOP MENU : END ============================================== -->
     <?php include('includes/main-header.php');?>
-        <!-- ============================================== NAVBAR ============================================== -->
+        <!-- =========NAVBAR==== -->
     <?php include('includes/menu-bar.php');?>
-    <!-- ============================================== NAVBAR : END ============================================== -->
-    
     </header>
-    
-    <!-- ============================================== HEADER : END ============================================== -->
     <div class="breadcrumb">
         <div class="container">
             <div class="breadcrumb-inner">
@@ -68,7 +63,7 @@
 		    <div class='row single-product outer-bottom-sm '>
 			    <div class='col-md-3 sidebar'>
 				    <div class="sidebar-module-container">
-<!-- ==============================================CATEGORY============================================== -->
+                        <!-- ======CATEGORY======= -->
                         <div class="sidebar-widget outer-bottom-xs wow fadeInUp">
                             <h3 class="section-title">Category</h3>
                                 <div class="sidebar-widget-body m-t-10">
@@ -85,8 +80,7 @@
 	                                </div>
 	                            </div>
                         </div>
-<!-- ============================================== CATEGORY : END ============================================== -->
-<!-- ============================================== HOT DEALS ============================================== -->
+<!-- ==== HOT DEALS ==== -->
 <div class="sidebar-widget hot-deals wow fadeInUp">
 	<h3 class="section-title">hot deals</h3>
 	<div class="owl-carousel sidebar-carousel custom-carousel owl-theme outer-top-xs">
@@ -129,18 +123,16 @@
 								</div>
 								
 							</div><!-- /.action -->
-						</div><!-- /.cart -->
-					</div>	
+				</div><!-- /.cart -->
+				</div>	
 				</div>		
 					<?php } ?>        
 						
 	    
-    </div><!-- /.sidebar-widget -->
-</div>
-
-<!-- ============================================== COLOR: END ============================================== -->
-</div>
-			</div><!-- /.sidebar -->
+            </div><!-- /.sidebar-widget -->
+        </div>
+    </div>
+    </div><!-- /.sidebar -->
 <?php 
 $ret=mysqli_query($con,"select * from products where id='$pid'");
 while($row=mysqli_fetch_array($ret))
@@ -214,3 +206,23 @@ while($row=mysqli_fetch_array($ret))
 
     </div>
 </div>     			
+<div class='col-sm-6 col-md-7 product-info-block'>
+	<div class="product-info">
+	    <h1 class="name"><?php echo htmlentities($row['productName']);?></h1>
+        <?php $rt=mysqli_query($con,"select * from productreviews where productId='$pid'");
+        $num=mysqli_num_rows($rt);
+        {
+        ?>
+        <div class="rating-reviews m-t-20">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="rating rateit-small"></div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="reviews">
+                        <a href="#" class="lnk">(<?php echo htmlentities($num);?> Reviews)</a>
+                    </div>
+                </div>
+            </div><!-- /.row -->		
+        </div><!-- /.rating-reviews -->
+        <?php } ?>
