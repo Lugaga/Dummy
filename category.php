@@ -14,6 +14,8 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 			$row_p=mysqli_fetch_array($query_p);
 			$_SESSION['cart'][$row_p['id']]=array("quantity" => 1, "price" => $row_p['productPrice']);
 			header('location:my-cart.php');
+		}else{
+			$message="Product ID is invalid";
 		}
 	}
 }
