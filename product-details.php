@@ -351,4 +351,25 @@ while($row=mysqli_fetch_array($ret))
 										<p class="text"><?php echo $row['productDescription'];?></p>
 									</div>	
 								</div><!-- /.tab-pane -->
-
+                                <div id="review" class="tab-pane">
+									<div class="product-tab">
+																				
+										<div class="product-reviews">
+											<h4 class="title">Customer Reviews</h4>
+                                            <?php $qry=mysqli_query($con,"select * from productreviews where productId='$pid'");
+                                            while($rvw=mysqli_fetch_array($qry))
+                                            {
+                                            ?>
+											<div class="reviews" style="border: solid 1px #000; padding-left: 2% ">
+												<div class="review">
+													<div class="review-title"><span class="summary"><?php echo htmlentities($rvw['summary']);?></span><span class="date"><i class="fa fa-calendar"></i><span><?php echo htmlentities($rvw['reviewDate']);?></span></span></div>
+                                                        <div class="text">"<?php echo htmlentities($rvw['review']);?>"</div>
+                                                            <div class="text"><b>Quality :</b>  <?php echo htmlentities($rvw['quality']);?> Star</div>
+                                                                <div class="text"><b>Price :</b>  <?php echo htmlentities($rvw['price']);?> Star</div>
+													                <div class="text"><b>value :</b>  <?php echo htmlentities($rvw['value']);?> Star</div>
+                                                                        <div class="author m-t-15"><i class="fa fa-pencil-square-o"></i> <span class="name"><?php echo htmlentities($rvw['name']);?></span></div>													</div>
+											
+										                                </div>
+											<?php } ?><!-- /.reviews -->
+										    </div><!-- /.product-reviews -->
+										    <form role="form" class="cnt-form" name="review" method="post">
