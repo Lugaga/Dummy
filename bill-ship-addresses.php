@@ -19,8 +19,10 @@ else{
 		{
 echo "<script>alert('Billing Address has been updated');</script>";
 		}
-    }
-    
+	}
+
+
+// code for Shipping address updation
 	if(isset($_POST['shipupdate']))
 	{
 		$saddress=$_POST['shippingaddress'];
@@ -33,3 +35,7 @@ echo "<script>alert('Billing Address has been updated');</script>";
 echo "<script>alert('Shipping Address has been updated');</script>";
 		}
 	}
+
+
+
+?>
