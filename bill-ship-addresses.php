@@ -36,6 +36,4 @@ echo "<script>alert('Shipping Address has been updated');</script>";
 		}
 	}
 
-
-
 ?>
