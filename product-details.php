@@ -287,4 +287,17 @@ while($row=mysqli_fetch_array($ret))
                         <span class="price-strike">Rs.<?php echo htmlentities($row['productPriceBeforeDiscount']);?></span>
                     </div>
                 </div>
+                <div class="col-sm-6">
+										<div class="favorite-button m-t-10">
+											<a class="btn btn-primary" data-toggle="tooltip" data-placement="right" title="Wishlist" href="product-details.php?pid=<?php echo htmlentities($row['id'])?>&&action=wishlist">
+											    <i class="fa fa-heart"></i>
+											</a>
+											
+											</a>
+										</div>
+									</div>
+
+								</div><!-- /.row -->
+							</div><!-- /.price-container -->
+
 
