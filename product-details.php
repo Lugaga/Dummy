@@ -438,4 +438,41 @@ while($row=mysqli_fetch_array($ret))
 																</div><!-- /.form-group -->
 															</div>
 														</div><!-- /.row -->
-														
+														<div class="action text-right">
+															<button name="submit" class="btn btn-primary btn-upper">SUBMIT REVIEW</button>
+														</div><!-- /.action -->
+
+													</form><!-- /.cnt-form -->
+												</div><!-- /.form-container -->
+											</div><!-- /.review-form -->
+
+										</div><!-- /.product-add-review -->										
+										
+							        </div><!-- /.product-tab -->
+								</div><!-- /.tab-pane -->
+
+				
+
+							</div><!-- /.tab-content -->
+						</div><!-- /.col -->
+			</div><!-- /.row -->
+		</div><!-- /.product-tabs -->
+        <?php $cid=$row['category'];
+			$subcid=$row['subCategory']; } ?>
+				<!--  UPSELL PRODUCTS  -->
+<section class="section featured-product wow fadeInUp">
+	<h3 class="section-title">Realted Products </h3>
+	<div class="owl-carousel home-owl-carousel upsell-product custom-carousel owl-theme outer-top-xs">
+        <?php 
+        $qry=mysqli_query($con,"select * from products where subCategory='$subcid' and category='$cid'");
+        while($rw=mysqli_fetch_array($qry))
+        {
+        ?>	
+		<div class="item item-carousel">
+			<div class="products">
+                <div class="product">		
+                    <div class="product-image">
+                        <div class="image">
+                            <a href="product-details.php?pid=<?php echo htmlentities($rw['id']);?>"><img  src="assets/images/blank.gif" data-echo="admin/productimages/<?php echo htmlentities($rw['id']);?>/<?php echo htmlentities($rw['productImage1']);?>" width="150" height="240" alt=""></a>
+                        </div><!-- /.image -->
+                    </div><!-- /.product-image -->
