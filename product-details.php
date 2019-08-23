@@ -417,3 +417,25 @@ while($row=mysqli_fetch_array($ret))
 													</table><!-- /.table .table-bordered -->
 												</div><!-- /.table-responsive -->
 											</div><!-- /.review-table -->
+                                            <div class="review-form">
+												<div class="form-container">
+														<div class="row">
+															<div class="col-sm-6">
+																<div class="form-group">
+																	<label for="exampleInputName">Your Name <span class="astk">*</span></label>
+																<input type="text" class="form-control txt" id="exampleInputName" placeholder="" name="name" required="required">
+																</div><!-- /.form-group -->
+																<div class="form-group">
+																	<label for="exampleInputSummary">Summary <span class="astk">*</span></label>
+																	<input type="text" class="form-control txt" id="exampleInputSummary" placeholder="" name="summary" required="required">
+																</div><!-- /.form-group -->
+															</div>
+
+															<div class="col-md-6">
+																<div class="form-group">
+																	<label for="exampleInputReview">Review <span class="astk">*</span></label>
+                                                                    <textarea class="form-control txt txt-review" id="exampleInputReview" rows="4" placeholder="" name="review" required="required"></textarea>
+																</div><!-- /.form-group -->
+															</div>
+														</div><!-- /.row -->
+														
