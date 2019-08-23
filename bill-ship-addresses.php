@@ -19,4 +19,14 @@ else{
 		{
 echo "<script>alert('Billing Address has been updated');</script>";
 		}
-	}
+    }
+    
+	if(isset($_POST['shipupdate']))
+	{
+		$saddress=$_POST['shippingaddress'];
+		$sstate=$_POST['shippingstate'];
+		$scity=$_POST['shippingcity'];
+		$spincode=$_POST['shippingpincode'];
+		$query=mysqli_query($con,"update users set shippingAddress='$saddress',shippingState='$sstate',shippingCity='$scity',shippingPincode='$spincode' where id='".$_SESSION['id']."'");
+		if($query)
+		{
