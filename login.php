@@ -1,4 +1,15 @@
 <?php
+session_start();
+error_reporting(0);
+include('includes/config.php');
+// Code user Registration
+if(isset($_POST['submit']))
+{
+$name=$_POST['fullname'];
+$email=$_POST['emailid'];
+$contactno=$_POST['contactno'];
+$password=md5($_POST['password']);
+$query=mysqli_query($con,"insert into users(name,email,contactno,password) values('$name','$email','$contactno','$password')");
 ?>
 <!-- Meta -->
 <meta charset="utf-8">
@@ -206,7 +217,6 @@ echo htmlentities($_SESSION['errmsg']="");
     <script src="assets/js/wow.min.js"></script>
 	<script src="assets/js/scripts.js"></script>
 
-	<!-- For demo purposes – can be removed on production -->
 	
 	<script src="switchstylesheet/switchstylesheet.js"></script>
 	
@@ -223,7 +233,7 @@ echo htmlentities($_SESSION['errmsg']="");
 		   $('.show-theme-options').delay(2000).trigger('click');
 		});
 	</script>
-	<!-- For demo purposes – can be removed on production : End -->
+	
 
 	
 
