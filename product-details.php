@@ -476,3 +476,31 @@ while($row=mysqli_fetch_array($ret))
                             <a href="product-details.php?pid=<?php echo htmlentities($rw['id']);?>"><img  src="assets/images/blank.gif" data-echo="admin/productimages/<?php echo htmlentities($rw['id']);?>/<?php echo htmlentities($rw['productImage1']);?>" width="150" height="240" alt=""></a>
                         </div><!-- /.image -->
                     </div><!-- /.product-image -->
+                    <div class="product-info text-left">
+                    <h3 class="name"><a href="product-details.php?pid=<?php echo htmlentities($rw['id']);?>"><?php echo htmlentities($rw['productName']);?></a></h3>
+                        <div class="rating rateit-small"></div>
+                            <div class="description"></div>
+
+                                <div class="product-price">	
+                                <span class="price">
+                                    Rs.<?php echo htmlentities($rw['productPrice']);?>			</span>
+                                                    <span class="price-before-discount">Rs.
+                                                    <?php echo htmlentities($rw['productPriceBeforeDiscount']);?></span>
+                                </div><!-- /.product-price -->
+                    </div><!-- /.product-info -->
+                    <div class="cart clearfix animate-effect">
+				        <div class="action">
+					        <ul class="list-unstyled">
+						        <li class="add-cart-button btn-group">
+							        <button class="btn btn-primary icon" data-toggle="dropdown" type="button">
+								    <i class="fa fa-shopping-cart"></i>
+							        </button>
+						            <a href="product-details.php?page=product&action=add&id=<?php echo $rw['id']; ?>" class="lnk btn btn-primary">Add to cart</a>
+						        </li>
+					        </ul>
+				        </div><!-- /.action -->
+			        </div><!-- /.cart -->
+			        </div><!-- /.product -->
+			    </div><!-- /.products -->
+		    </div><!-- /.item -->
+		<?php } ?>
