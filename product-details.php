@@ -336,4 +336,19 @@ while($row=mysqli_fetch_array($ret))
 						</div><!-- /.product-info -->
 					</div><!-- /.col-sm-7 -->
 				</div><!-- /.row -->
+                <div class="product-tabs inner-bottom-xs  wow fadeInUp">
+					<div class="row">
+						<div class="col-sm-3">
+							<ul id="product-tabs" class="nav nav-tabs nav-tab-cell">
+								<li class="active"><a data-toggle="tab" href="#description">DESCRIPTION</a></li>
+								<li><a data-toggle="tab" href="#review">REVIEW</a></li>
+							</ul><!-- /.nav-tabs #product-tabs -->
+						</div>
+						<div class="col-sm-9">
+							<div class="tab-content">
+								<div id="description" class="tab-pane in active">
+									<div class="product-tab">
+										<p class="text"><?php echo $row['productDescription'];?></p>
+									</div>	
+								</div><!-- /.tab-pane -->
 
