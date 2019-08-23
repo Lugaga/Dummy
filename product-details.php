@@ -34,10 +34,10 @@
 	
     <header class="header-style-1">
     
-        <!-- ======TOP MENU ======= -->
+        <!-- TOP MENU  -->
     <?php include('includes/top-header.php');?>
     <?php include('includes/main-header.php');?>
-        <!-- =========NAVBAR==== -->
+        <!-- NAVBAR -->
     <?php include('includes/menu-bar.php');?>
     </header>
     <div class="breadcrumb">
