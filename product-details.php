@@ -277,3 +277,14 @@ while($row=mysqli_fetch_array($ret))
                 </div>
             </div><!-- /.row -->	
         </div>
+        <div class="price-container info-container m-t-20">
+            <div class="row">
+                
+
+                <div class="col-sm-6">
+                    <div class="price-box">
+                        <span class="price">Rs. <?php echo htmlentities($row['productPrice']);?></span>
+                        <span class="price-strike">Rs.<?php echo htmlentities($row['productPriceBeforeDiscount']);?></span>
+                    </div>
+                </div>
+
