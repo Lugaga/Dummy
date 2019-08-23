@@ -240,3 +240,17 @@ while($row=mysqli_fetch_array($ret))
                 </div>
             </div><!-- /.row -->	
         </div>
+        <div class="stock-container info-container m-t-10">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="stock-box">
+                        <span class="label">Product Brand :</span>
+                    </div>	
+                </div>
+                <div class="col-sm-9">
+                    <div class="stock-box">
+                        <span class="value"><?php echo htmlentities($row['productCompany']);?></span>
+                    </div>	
+                </div>
+            </div><!-- /.row -->	
+        </div>
