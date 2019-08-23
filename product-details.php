@@ -316,4 +316,24 @@ while($row=mysqli_fetch_array($ret))
 							              </div>
 							            </div>
 									</div>
+                                    <div class="col-sm-7">
+										<a href="product-details.php?page=product&action=add&id=<?php echo $row['id']; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart inner-right-vs"></i> ADD TO CART</a>
+									</div>
+								</div><!-- /.row -->
+							</div><!-- /.quantity-container -->
+							<div class="product-social-link m-t-20 text-right">
+								<span class="social-label">Share :</span>
+								<div class="social-icons">
+						            <ul class="list-inline">
+						                <li><a class="fa fa-facebook" href="http://facebook.com/transvelo"></a></li>
+						                <li><a class="fa fa-twitter" href="#"></a></li>
+						                <li><a class="fa fa-linkedin" href="#"></a></li>
+						                <li><a class="fa fa-rss" href="#"></a></li>
+						                <li><a class="fa fa-pinterest" href="#"></a></li>
+						            </ul><!-- /.social-icons -->
+						        </div>
+							</div>
+						</div><!-- /.product-info -->
+					</div><!-- /.col-sm-7 -->
+				</div><!-- /.row -->
 
