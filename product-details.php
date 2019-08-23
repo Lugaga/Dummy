@@ -254,3 +254,26 @@ while($row=mysqli_fetch_array($ret))
                 </div>
             </div><!-- /.row -->	
         </div>
+        <div class="stock-container info-container m-t-10">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="stock-box">
+                        <span class="label">Shipping Charge :</span>
+                    </div>	
+                </div>
+                <div class="col-sm-9">
+                    <div class="stock-box">
+                        <span class="value"><?php if($row['shippingCharge']==0)
+                        {
+                            echo "Free";
+                        }
+                        else
+                        {
+                            echo htmlentities($row['shippingCharge']);
+                        }
+
+                        ?></span>
+                    </div>	
+                </div>
+            </div><!-- /.row -->	
+        </div>
