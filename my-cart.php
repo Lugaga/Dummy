@@ -1,3 +1,21 @@
+<?php 
+session_start();
+error_reporting(0);
+include('includes/config.php');
+if(isset($_POST['submit'])){
+		if(!empty($_SESSION['cart'])){
+		foreach($_POST['quantity'] as $key => $val){
+			if($val==0){
+				unset($_SESSION['cart'][$key]);
+			}else{
+				$_SESSION['cart'][$key]['quantity']=$val;
+
+			}
+		}
+			echo "<script>alert('Your Cart has been Updated');</script>";
+		}
+    }
+    ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
