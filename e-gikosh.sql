@@ -63,3 +63,15 @@ CREATE TABLE `orders` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
+-- Table structure for table `ordertrackhistory`
+--
+
+CREATE TABLE `ordertrackhistory` (
+  `id` int(11) NOT NULL,
+  `orderId` int(11) DEFAULT NULL,
+  `status` varchar(255) DEFAULT NULL,
+  `remark` mediumtext,
+  `postingDate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
