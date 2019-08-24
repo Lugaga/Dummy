@@ -2916,3 +2916,185 @@ a .banner-item{
 	margin:-10px 0 10px;
 	border:1px solid #ddd;
 }
+.blog-item{
+	margin-bottom:30px;	
+	overflow:hidden;
+}
+
+.blog-item>img,
+.blog-item>a>img{
+	width:100%;
+}
+
+.col-lg-12 .blog-item .rating-box{
+	float:right;
+	margin-top:0;
+	margin-right:-10px;
+}
+
+.blog-item .rating-box{
+	margin-top:2px;
+}
+
+.blog-item .rating-box span{
+	margin-right:10px;
+}
+
+.blog-info{
+	background:#f7f7f7;
+	padding:20px;
+}
+
+.blog-info h3{
+	margin:0 0 10px;	
+	font-size:24px;
+	line-height:24px;
+}
+
+.blog-meta span{
+	margin-right:20px;	
+	font-size:12px;
+	line-height:10px;
+}
+
+.blog-meta .icons{
+	color:#bdc3c7;	
+}
+
+.blog-info p{
+	font-size:14px;
+	line-height:21px;
+}
+
+a.button{
+	background:#34495e;
+	padding:10px 15px;
+	text-transform:uppercase;
+	color:#fff;	
+	cursor:pointer;
+	display:inline-block;
+	height:40px;
+}
+
+a.button.big{
+	font-size:18px;
+	padding:15px 30px;
+	height:50px;
+}
+
+a.button.small{
+	padding:5px 15px;
+	font-size:14px;
+	height:30px;	
+}
+
+a.button.round{
+	width:40px;
+	height:40px;
+	display:inline-block;
+	padding-top:8px;
+	padding-left:15px;
+}
+
+a.button.regular{
+	text-transform:none;
+}
+
+a.button:hover{
+	background:#2c3e50;	
+}
+
+a.button .icons{
+	margin:0 5px 0 -5px;	
+}
+
+a.button.right-icon{
+	padding-right:5px;
+}
+
+a.button.right-icon .icons{
+	margin-left:5px;
+}
+
+.blog-actions{
+	max-width:250px;
+}
+
+.blog-actions-big{
+	max-width:290px;
+}
+
+.blog-actions-big .product-action{
+	padding-top:9px!important;
+}
+
+ul.comments li{
+	position:relative;	
+	margin-bottom:30px;
+	margin-left:0;
+}
+
+ul.comments li p{
+	margin:0;
+}
+
+ul.comments li .date{
+	color:#7a8188;	
+}
+
+ul.comments li .icons + p{
+	margin-top:10px;	
+}
+
+ul.comments li .icons{
+	float:right;
+	display:block;
+	width:30px;
+	height:30px;
+	background:#f7f7f7;	
+	cursor:pointer;
+	padding-top:5px;
+	text-align:center;
+	margin-top:-20px;
+	transition:background 0.3s;
+	-webkit-transition:background 0.3s;
+	-moz-transition:background 0.3s;
+	-ms-transition:background 0.3s;
+	-o-transition:background 0.3s;
+}
+
+ul.comments li .icons:hover{
+	background:#dde3e6;
+}
+
+ul.comments li .icons.red{
+	background:#e74c3c;
+	color:#fff;	
+}
+
+ul.comments li .icons.green{
+	background:#2ecc71;
+	color:#fff;	
+}
+
+ul.comments li .icons.sum{
+	font-style:normal;	
+}
+
+ul.comments li .icons.no-pointer{
+	cursor:default!important;
+}
+
+ul.comments li .icons.sum.green-sum{
+	color:#2ecc71;	
+}
+
+ul.comments li .icons.sum.red-sum{
+	color:#e74c3c;	
+}
+
+ul.comments li ul li{
+	background:#f7f7f7;
+	padding:15px 20px;
+	margin:20px 0 20px 20px;	
+}
