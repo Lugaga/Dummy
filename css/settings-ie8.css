@@ -595,11 +595,6 @@
 .tp-bullets.simplebullets.navbar .bullet:hover,
 .tp-bullets.simplebullets.navbar .bullet.selected		{	background-position:bottom left; }
 
-
-
-/*************************************
--	TP ARROWS 	-
-**************************************/
 .tparrows												{	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
                 -moz-opacity: 1;
                 -khtml-opacity: 1;
@@ -656,22 +651,6 @@
 .tp-leftarrow:hover,
 .tp-rightarrow:hover 									{	background-position:bottom left; }
 
-
-
-
-
-
-/****************************************************************************************************
--	TP THUMBS 	-
-*****************************************************************************************************
-
-- tp-thumbs & tp-mask Width is the width of the basic Thumb Container (500px basic settings)
-
-- .bullet width & height is the dimension of a simple Thumbnail (basic 100px x 50px)
-
-*****************************************************************************************************/
-
-
 .tp-bullets.tp-thumbs						{	z-index:1000; position:absolute; padding:3px;background-color:#fff;
     width:500px;height:50px; 			/* THE DIMENSIONS OF THE THUMB CONTAINER */
     margin-top:-50px;
@@ -707,19 +686,9 @@
 }
 .tp-thumbs img								{	width:100%; }
 
-
-/************************************
--	TP BANNER TIMER		-
-*************************************/
 .tp-bannertimer								{	width:100%; height:10px; background:url(../assets/timer.png);position:absolute; z-index:200;top:0px;}
 .tp-bannertimer.tp-bottom					{	bottom:0px;height:5px; top:auto;}
 
-
-
-
-/***************************************
--	RESPONSIVE SETTINGS 	-
-****************************************/
 
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -740,15 +709,6 @@
 .responsive .tparrows	{	display:none;}
 }
 
-
-
-
-
-/*********************************************
-
--	BASIC SETTINGS FOR THE BANNER	-
-
-***********************************************/
 
 .tp-simpleresponsive img {
 -moz-user-select: none;
