@@ -222,3 +222,9 @@ ALTER TABLE `wishlist`
   ADD PRIMARY KEY (`id`);
 
 --
+-- AUTO_INCREMENT for table `admin`
+--
+ALTER TABLE `admin`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
