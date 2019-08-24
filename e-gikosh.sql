@@ -75,3 +75,19 @@ CREATE TABLE `ordertrackhistory` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
+-- Table structure for table `productreviews`
+--
+
+CREATE TABLE `productreviews` (
+  `id` int(11) NOT NULL,
+  `productId` int(11) DEFAULT NULL,
+  `quality` int(11) DEFAULT NULL,
+  `price` int(11) DEFAULT NULL,
+  `value` int(11) DEFAULT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `summary` varchar(255) DEFAULT NULL,
+  `review` longtext,
+  `reviewDate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
