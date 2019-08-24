@@ -3650,3 +3650,260 @@ table.coupon-table td{
 table.coupon-table td.fit-cell{
 	padding-left:3px;
 }
+#upper-footer{
+	background:#f7f7f7;
+	padding:5px 20px;
+	border-bottom:1px solid #dfe6f3;
+}
+
+#upper-footer.border-top{
+	border-bottom:none;
+	border-top:	1px solid #dfe6f3;
+}
+
+#upper-footer h4{
+	text-transform:uppercase;
+}
+
+#newsletter>*, .social-media>*{
+	display:inline-block;
+}
+
+#newsletter span{
+	margin-top:20px;
+}
+
+#newsletter span.error{
+	margin-top:0;
+}	
+
+#newsletter input[type="text"]{
+	width:330px;
+	margin:0 0 0 15px;
+	font-size:14px;
+}
+
+#newsletter input[type="text"], #newsletter input[type="submit"]{
+	height:40px;
+}
+
+#newsletter input[type="submit"]{
+	font-size:16px;
+	position:relative;
+	top:1px;
+}
+
+.social-media ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+	vertical-align:middle;
+	margin-left:15px;
+}
+
+.social-media ul li{
+	display:inline-block!important;
+	padding:0!important;
+}
+
+.social-media ul li a{
+	display:block;
+	width:40px;
+	height:40px;
+	background:#ccc url('../img/social-icons.png') no-repeat;
+}
+.social-media ul li.social-googleplus a{
+	background-color:#d74937;
+	background-position:0 0;
+}
+
+.social-media ul li.social-facebook a{
+	background-color:#39599f;
+	background-position:-40px 0;
+}
+
+.social-media ul li.social-pinterest a{
+	background-color:#b8242a;
+	background-position:-80px 0;
+}
+
+.social-media ul li.social-twitter a{
+	background-color:#45b0e3;
+	background-position:-120px 0;
+}
+
+.social-media ul li.social-youtube a{
+	background-color:#e70031;
+	background-position:-160px 0;
+}
+
+.facebook-iframe iframe{
+	width:100%;
+	border:none;	
+}
+
+.twitter-widget ul{
+	list-style:none;
+	margin:10px 0;
+	padding:0;	
+}
+
+.twitter-widget li{
+	font-size:14px;
+	color:#596067;
+	padding-left:30px;
+	position:relative;
+	line-height:22px;	
+}
+
+.twitter-widget li:before{
+	content: '\e965';
+	font-family: "fontello";
+	font-style: normal;
+	font-weight: normal;
+	speak: none;
+	color:#3498db;
+	position:absolute;
+	left:0;
+	top:0;	
+}
+
+.twitter-widget .tweet_time{
+	display:none;
+}
+
+.twitter-widget li .date{
+	display:block;
+	color:#596067;
+}
+
+.twitter-widget li a:hover{
+	color:#1f2228!important;	
+}
+
+.twitter-widget li .icons{
+		
+}
+#main-footer{
+	background:#f7f7f7;
+	padding:5px 20px 20px;
+}
+
+#main-footer h4{
+	text-transform:uppercase;
+}
+
+#main-footer p{
+	font-size:14px;
+	line-height:22px;	
+}
+
+#main-footer ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+#main-footer li{
+	margin:10px 0;
+	word-wrap: break-word
+}
+
+#main-footer ul li .icons{
+	font-size:14px;
+	width:15px;
+	margin-left:-5px;
+}
+
+#main-footer ul li a:hover{
+	color:#e74c3c;
+}
+
+#main-footer #newsletter p{
+	margin-top:0;
+}
+
+.contact-footer-info ul li{
+	font-size:14px;
+	color:#596067;
+	position:relative;
+	padding-left:30px;
+	margin-bottom:15px!important;
+	display:block;
+}
+
+.contact-footer-info ul li .icons{
+	color:#1f2228;	
+	margin-right:10px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.social-media ul li{
+	margin:0!important;
+}
+
+#main-footer #newsletter input[type="text"]{
+	width:100%;
+	margin:0 0 5px;
+}
+#lower-footer{
+	padding:20px;
+}
+
+.payment-list{
+	list-style:none;
+	margin:0;
+	padding:0;
+	float:right;
+}
+
+.payment-list li{
+	float:left;
+	margin-left:5px;
+	display:block;
+	width:40px;
+	height:25px;
+	background:url('../img/payment-icons.png') no-repeat;
+	transition:all 1s;
+	-webkit-transition:all 1s;
+	-moz-transition:all 1s;
+	-ms-transition:all 1s;
+	-o-transition:all 1s;
+}
+
+.payment-list li:fisrt-child{
+	margin:0;
+}
+
+.payment-list li:hover{
+	transform:rotateX(360deg);
+	-webkit-transform:rotateX(360deg);
+}
+
+.payment-list .payment1{
+	background-position:0 0;
+}
+
+.payment-list .payment2{
+	background-position:-45px 0;
+}
+
+.payment-list .payment3{
+	background-position:-90px 0;
+}
+
+.payment-list .payment4{
+	background-position:-135px 0;
+}
+
+.payment-list .payment5{
+	background-position:-180px 0;
+}
+
+#lower-footer p.copyright{
+	font-size:14px;
+	color:#7a8188;
+	margin:0;
+}
