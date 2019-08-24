@@ -582,3 +582,163 @@ border-width:0px;
 border-color:rgb(255, 214, 88);
 border-style:none;
 }
+.tp-caption.mediumlarge_light_white_center {
+    font-size:34px;
+    line-height:40px;
+    font-weight:300;
+    font-family:"Open Sans";
+    color:#ffffff;
+    text-decoration:none;
+    background-color:transparent;
+    padding:0px 0px 0px 0px;
+    text-align:center;
+    border-width:0px;
+    border-color:rgb(255, 214, 88);
+    border-style:none;
+    }
+    
+    .tp-caption.medium_bg_asbestos {
+    font-size:20px;
+    line-height:20px;
+    font-weight:800;
+    font-family:"Open Sans";
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    background-color:rgb(127, 140, 141);
+    padding:10px;
+    border-width:0px;
+    border-color:rgb(255, 214, 88);
+    border-style:none;
+    }
+    
+    .tp-caption.medium_light_black {
+    font-size:30px;
+    line-height:36px;
+    font-weight:300;
+    font-family:"Open Sans";
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+    background-color:transparent;
+    padding:0px;
+    border-width:0px;
+    border-color:rgb(255, 214, 88);
+    border-style:none;
+    }
+    
+    .tp-caption.large_bold_black {
+    font-size:58px;
+    line-height:60px;
+    font-weight:800;
+    font-family:"Open Sans";
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+    background-color:transparent;
+    border-width:0px;
+    border-color:rgb(255, 214, 88);
+    border-style:none;
+    }
+    
+    .tp-caption.mediumlarge_light_darkblue {
+    font-size:34px;
+    line-height:40px;
+    font-weight:300;
+    font-family:"Open Sans";
+    color:rgb(52, 73, 94);
+    text-decoration:none;
+    background-color:transparent;
+    padding:0px;
+    border-width:0px;
+    border-color:rgb(255, 214, 88);
+    border-style:none;
+    }
+    
+    .tp-caption.small_light_white {
+    font-size:17px;
+    line-height:28px;
+    font-weight:300;
+    font-family:"Open Sans";
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    background-color:transparent;
+    padding:0px;
+    border-width:0px;
+    border-color:rgb(255, 214, 88);
+    border-style:none;
+    }
+    
+    .tp-caption.roundedimage {
+    border-width:0px;
+    border-color:rgb(34, 34, 34);
+    border-style:none;
+    }
+    
+    .tp-caption.large_bg_black {
+    font-size:40px;
+    line-height:40px;
+    font-weight:800;
+    font-family:"Open Sans";
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    background-color:rgb(0, 0, 0);
+    padding:10px 20px 15px;
+    border-width:0px;
+    border-color:rgb(255, 214, 88);
+    border-style:none;
+    }
+    
+    .tp-caption.mediumwhitebg {
+    font-size:30px;
+    line-height:30px;
+    font-weight:300;
+    font-family:"Open Sans";
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+    background-color:rgb(255, 255, 255);
+    padding:5px 15px 10px;
+    text-shadow:none;
+    border-width:0px;
+    border-color:rgb(0, 0, 0);
+    border-style:none;
+    }
+    
+    .tp-caption.medium_bg_orange_new1 {
+    font-size:20px;
+    line-height:20px;
+    font-weight:800;
+    font-family:"Open Sans";
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    background-color:rgb(243, 156, 18);
+    padding:10px;
+    border-width:0px;
+    border-color:rgb(255, 214, 88);
+    border-style:none;
+    }
+    
+    
+    
+    .tp-caption.boxshadow{
+            -moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+            -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+        }
+    
+    .tp-caption.black{
+            color: #000;
+            text-shadow: none;
+            font-weight: 300;
+            font-size: 19px;
+            line-height: 19px;
+            font-family: 'Open Sans', sans;
+        }
+    
+    .tp-caption.noshadow {
+            text-shadow: none;
+        }
+    
+    
+    .tp_inner_padding	{	box-sizing:border-box;
+                            -webkit-box-sizing:border-box;
+                            -moz-box-sizing:border-box;
+                            max-height:none !important;	}
+    
