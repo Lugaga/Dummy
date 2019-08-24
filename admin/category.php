@@ -10,3 +10,62 @@
 	<link type="text/css" href="images/icons/css/font-awesome.css" rel="stylesheet">
 	<link type="text/css" href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600' rel='stylesheet'>
 </head>
+<?php include('include/header.php');?>
+
+	<div class="wrapper">
+		<div class="container">
+			<div class="row">
+<?php include('include/sidebar.php');?>				
+			<div class="span9">
+					<div class="content">
+
+						<div class="module">
+							<div class="module-head">
+								<h3>E-Gikosh Category</h3>
+							</div>
+							<div class="module-body">
+
+									<?php if(isset($_POST['submit']))
+{?>
+									<div class="alert alert-success">
+										<button type="button" class="close" data-dismiss="alert">×</button>
+									<strong>Successful</strong>	<?php echo htmlentities($_SESSION['msg']);?><?php echo htmlentities($_SESSION['msg']="");?>
+									</div>
+<?php } ?>
+
+
+									<?php if(isset($_GET['del']))
+{?>
+									<div class="alert alert-error">
+										<button type="button" class="close" data-dismiss="alert">×</button>
+									<strong>Oh!</strong> 	<?php echo htmlentities($_SESSION['delmsg']);?><?php echo htmlentities($_SESSION['delmsg']="");?>
+									</div>
+<?php } ?>
+
+									<br />
+
+			<form class="form-horizontal row-fluid" name="Category" method="post" >
+									
+<div class="control-group">
+<label class="control-label" for="basicinput">Category Name</label>
+<div class="controls">
+<input type="text" placeholder="Enter category Name"  name="category" class="span8 tip" required>
+</div>
+</div>
+
+
+<div class="control-group">
+											<label class="control-label" for="basicinput">Description</label>
+											<div class="controls">
+												<textarea class="span8" name="description" rows="5"></textarea>
+											</div>
+										</div>
+
+	<div class="control-group">
+											<div class="controls">
+												<button type="submit" name="submit" class="btn">Create</button>
+											</div>
+										</div>
+									</form>
+							</div>
+						</div>
