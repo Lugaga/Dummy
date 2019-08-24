@@ -198,3 +198,8 @@ ALTER TABLE `productreviews`
 --
 ALTER TABLE `products`
   ADD PRIMARY KEY (`id`);
+
+-- Indexes for table `subcategory`
+--
+ALTER TABLE `subcategory`
+  ADD PRIMARY KEY (`id`);
