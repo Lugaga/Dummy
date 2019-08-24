@@ -48,6 +48,17 @@ CREATE TABLE `category` (
   `updationDate` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+
+-- Table structure for table `subcategory`
+--
+
+CREATE TABLE `subcategory` (
+  `id` int(11) NOT NULL,
+  `categoryid` int(11) DEFAULT NULL,
+  `subcategory` varchar(255) DEFAULT NULL,
+  `creationDate` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `updationDate` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 --
 -- Table structure for table `orders`
 --
