@@ -297,3 +297,5 @@ echo "Your shopping Cart is empty";
        $('.show-theme-options').delay(2000).trigger('click');
     });
 </script>
+</body>
+</html>
