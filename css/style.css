@@ -1892,3 +1892,79 @@ input[type="checkbox"]:checked + label.color-checkbox{
 .iosSlider .slider #item3 .image {
 	background: url(../img/slide2.jpg) right bottom no-repeat;
 }
+.flexsliderBig{
+	height:400px;
+}
+
+.flexsliderBig .text{
+	padding:60px 40px;
+}
+
+.flexsliderBig li{
+	background-size:auto 100%;
+	background-position:right bottom!important;
+	height:400px;
+}
+
+.flexsliderBig #slide1 {
+	background: url(../img/slide1.jpg) no-repeat;
+}
+
+.flexsliderBig #slide2 {
+	background: url(../img/slide3.jpg) no-repeat;
+}
+
+.flexsliderBig #slide3 {
+	background: url(../img/slide2.jpg) no-repeat;
+}
+
+.flexsliderBig strong{
+	font-weight:700;
+}
+
+.flexsliderBig h2{
+	font-size:36px;
+	color:#2c3e50;
+	line-height:38px;
+	margin:0;
+}
+
+.flexsliderBig h3{
+	font-size:24px;
+	margin:10px 0 40px;
+	color:#2c3e50;
+}
+
+.flexsliderBig span{
+	font-size:18px;
+	color:#2c3e50;
+}
+
+.flexsliderBig span.price{
+	font-size:24px;
+	color:#2c3e50;
+}
+
+.flexsliderBig a.button{
+	margin-top:10px;
+}
+.breadcrumbs{
+	background:#f7f7f7;
+	margin-bottom:20px;
+	margin-top:-10px;
+}
+
+.breadcrumbs p{
+	color:#7a8188;	
+	font-size:13px;
+	margin:0;
+	padding:8px 20px;
+}
+
+.breadcrumbs .icons{
+	color:#c1c7ca;	
+}
+
+.breadcrumbs a{
+	font-weight:300;	
+}
