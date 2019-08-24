@@ -983,3 +983,284 @@ span.grey{
 #search-bar p a:hover{
 	color:#1abc9c;	
 }
+li.blue>a, 
+input.blue, 
+.button.blue, 
+#main-navigation li.blue li, 
+span.product-action.blue{
+	background:#3498db!important;
+}
+
+li.blue>a:hover, 
+#main-navigation .blue ul.wide-dropdown ul a:hover, 
+input.blue:hover,.button.blue:hover, 
+li.blue.current-item>a, 
+li.blue.current-item, 
+.icons.blue:hover, 
+span.product-action.blue:hover{
+	background:#2980b9!important;
+}
+
+li.blue .parent-background{
+	background:#3498db;
+}
+
+li.blue .parent-border{
+	border-color:#3498db;
+}
+
+li.blue .parent-arrow:after{
+	border-bottom-color:#3498db;
+}
+
+li.blue .parent-color, 
+a.blue{
+	color:#3498db;
+}
+li.dark-blue>a, 
+input.dark-blue, 
+.button.dark-blue, 
+#main-navigation li.dark-blue li, 
+span.product-action.dark-blue{
+	background:#34495e!important;
+}
+
+li.dark-blue>a:hover, 
+#main-navigation .dark-blue ul.wide-dropdown ul a:hover, 
+input.dark-blue:hover,
+.button.dark-blue:hover, 
+li.dark-blue.current-item>a, 
+li.dark-blue.current-item, 
+.icons.dark-blue:hover, 
+span.product-action.dark-blue:hover{
+	background:#2c3e50!important;
+}
+
+li.dark-blue .parent-background{
+	background:#34495e;
+}
+
+li.dark-blue .parent-border{
+	border-color:#34495e;
+}
+
+li.dark-blue .parent-arrow:after{
+	border-bottom-color:#34495e;
+}
+
+li.dark-blue .parent-color, 
+a.dark-blue{
+	color:#34495e;
+}
+li.red>a, 
+input.red, 
+.button.red, 
+#main-navigation li.red li, 
+span.product-action.red{
+	background:#e74c3c!important;
+}
+
+li.red>a:hover, 
+#main-navigation .red ul.wide-dropdown ul a:hover, 
+input.red:hover , 
+.button.red:hover, 
+li.red.current-item>a, 
+li.red.current-item, 
+.icons.red:hover, 
+span.product-action.red:hover{
+	background:#c0392b!important;
+}
+
+li.red .parent-background{
+	background:#e74c3c;
+}
+
+li.red .parent-border{
+	border-color:#e74c3c;
+}
+
+li.red .parent-arrow:after{
+	border-bottom-color:#e74c3c;
+}
+
+li.red .parent-color, 
+a.red, 
+.red-hover:hover{
+	color:#e74c3c;
+}
+li.grey>a, 
+input.grey, 
+.button.grey, 
+#main-navigation li.grey li, 
+span.product-action.grey{
+	background:#f7f7f7!important;
+	color:#1f2228;
+}
+
+li.grey>a:hover, 
+#main-navigation .grey ul.wide-dropdown ul a:hover, 
+input.grey:hover , 
+.button.grey:hover, 
+li.grey.current-item>a, 
+li.grey.current-item, 
+.icons.grey:hover, 
+span.product-action.grey:hover{
+	background:#dde3e6!important;
+}
+
+li.grey .parent-background{
+	background:#f7f7f7;
+}
+
+li.grey .parent-border{
+	border-color:#f7f7f7;
+}
+
+li.grey .parent-arrow:after{
+	border-bottom-color:#f7f7f7;
+}
+
+li.grey .parent-color, 
+a.grey{
+	color:#f7f7f7;
+}
+li.home-green>a, 
+input.home-green, 
+.button.home-green, 
+#main-navigation li.home-green li, 
+span.product-action.home-green{
+	background:#1abc9c!important;
+}
+
+li.home-green>a:hover, 
+#main-navigation .home-green ul.wide-dropdown ul a:hover, 
+input.home-green:hover, 
+.button.home-green:hover, 
+li.home-green.current-item>a, 
+li.home-green.current-item, 
+.icons.home-green:hover, 
+span.product-action.home-green:hover{
+	background:#16a085!important;
+}
+
+li.home-green .parent-background{
+	background:#1abc9c;
+}
+
+li.home-green .parent-border{
+	border-color:#1abc9c;
+}
+
+li.home-green .parent-arrow:after{
+	border-bottom-color:#1abc9c;	
+}
+
+li.home-green .parent-color, 
+a.home-green{
+	color:#1abc9c;
+}
+li.green>a, 
+input.green, 
+.button.green, 
+#main-navigation li.green li, 
+span.product-action.green{
+	background:#2ecc71!important;
+}
+
+li.green>a:hover, 
+#main-navigation .green ul.wide-dropdown ul a:hover, 
+input.green:hover, 
+.button.green:hover, 
+li.green.current-item>a, 
+li.green.current-item, 
+.icons.green:hover, 
+span.product-action.green:hover{
+	background:#21bf64!important;
+}
+
+li.green .parent-color, 
+a.green{
+	color:#2ecc71;
+}
+
+li.green .parent-background{
+	background:#2ecc71;
+}
+
+li.green .parent-border{
+	border-color:#2ecc71;
+}
+
+li.green .parent-arrow:after{
+	border-bottom-color:#2ecc71;	
+}
+li.purple>a, 
+input.purple, 
+.button.purple, 
+#main-navigation li.purple li, 
+span.product-action.purple{
+	background:#9b59b6!important;
+}
+
+li.purple>a:hover, 
+#main-navigation .purple ul.wide-dropdown ul a:hover, 
+input.purple:hover, 
+.button.purple:hover, 
+li.purple.current-item>a, 
+li.purple.current-item, 
+.icons.purple:hover, 
+span.product-action.purple:hover{
+	background:#8e44ad!important;
+}
+
+li.purple .parent-color, 
+a.purple{
+	color:#9b59b6;
+}
+
+li.purple .parent-background{
+	background:#9b59b6;
+}
+
+li.purple .parent-border{
+	border-color:#9b59b6;
+}
+
+li.purple .parent-arrow:after{
+	border-bottom-color:#9b59b6;	
+}
+li.orange>a, 
+input.orange, 
+.button.orange, 
+#main-navigation li.orange li, 
+span.product-action.orange{
+	background:#f5791f!important;
+}
+
+li.orange>a:hover, 
+#main-navigation .orange ul.wide-dropdown ul a:hover, 
+input.orange:hover, 
+.button.orange:hover, 
+li.orange.current-item>a, 
+li.orange.current-item, 
+.icons.orange:hover, 
+span.product-action.orange:hover{
+	background:#d35400!important;
+}
+
+li.orange .parent-color, 
+a.orange{
+	color:#f5791f;
+}
+
+li.orange .parent-background{
+	background:#f5791f;
+}
+
+li.orange .parent-border{
+	border-color:#f5791f;
+}
+
+li.orange .parent-arrow:after{
+	border-bottom-color:#f5791f;	
+}
