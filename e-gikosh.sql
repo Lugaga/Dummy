@@ -113,3 +113,16 @@ CREATE TABLE `products` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
+-- Table structure for table `userlog`
+--
+
+CREATE TABLE `userlog` (
+  `id` int(11) NOT NULL,
+  `userEmail` varchar(255) DEFAULT NULL,
+  `userip` binary(16) DEFAULT NULL,
+  `loginTime` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `logout` varchar(255) DEFAULT NULL,
+  `status` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
