@@ -3366,3 +3366,287 @@ table.product-actions-single input{
 .page-content.contact-form{
 	padding-bottom:30px;
 }
+.main-content table{
+	background:#f7f7f7;
+	margin-bottom:20px;
+}
+
+.main-content table strong{
+	color:#1f2228;
+}
+
+.main-content table th{
+	background:#a1aaaf;	
+	color:#fff;
+	font-size:16px;
+	font-weight:300;
+	text-align:left;
+	padding:15px 20px;
+	border-right:1px solid #fff;
+	border-bottom:1px solid #fff;
+}
+
+.main-content tr{
+	transition:background 0.3s;
+	-webkit-transition:background 0.3s;
+	-moz-transition:background 0.3s;
+	-ms-transition:background 0.3s;
+	-o-transition:background 0.3s;
+}
+
+.main-content table th:last-child{
+	border:none;
+}
+
+.main-content table td{
+	border:1px solid #e9fbfe;
+	padding:20px;
+	font-size:14px;
+	vertical-align:top;
+}
+
+.main-content table p{
+	font-size:14px;
+}
+
+table .fit-cell{
+	width:1%;	
+}
+.wishlist-table{
+	width:100%;	
+}
+
+.wishlist-table tr:hover{
+	background:#fff;
+}
+
+td.wishlist-image img{
+	background:#fff;
+	padding:10px;
+	max-width:200px;
+}
+
+.wishlist-table .numeric-input{
+	margin:0 0 10px 0;
+}
+
+td.wishlist-image{
+	width:22.222222%!important;	
+	padding:0!important;
+}
+
+td.wishlist-info{
+	width:33.333333%;	
+}
+
+td.wishlist-price{
+	width:11.111111%;	
+}
+
+td.wishlist-actions{
+	width:33.333333%;	
+}
+
+td.wishlist-info h5{
+	margin:0;
+}
+
+td.wishlist-info .product-category a{
+	font-size:14px;
+	color:#9b59b6;
+	display:block;
+	margin:5px 0;
+}
+
+table span.action-name{
+	left:0;
+	width:auto;
+	position:relative;
+	color:#fff;
+	opacity:1;
+	-webkit-opacity:1;
+	-moz-opacity:1;
+	-ms-opacity:1;
+	-o-opacity:1;
+}
+
+.main-content input[type="number"]{
+	margin-bottom:10px;	
+	width:80px;
+	display:block;
+}
+
+table span.add-to-cart{
+	background:#f5791f;
+	display:inline-block;
+	padding:10px 20px 10px 15px;
+	margin:1px 0;
+	font-size:16px;
+	transition:background 0.3s;
+	-webkit-transition:background 0.3s;
+	-moz-transition:background 0.3s;
+	-ms-transition:background 0.3s;
+	-o-transition:background 0.3s;
+}
+
+table span.add-to-cart .icons{
+	color:#fff;
+}
+
+table span.add-to-cart:hover{
+	background:#d35400;	
+}
+
+table span.add-to-trash{
+	background:#34495e;
+	display:inline-block;
+	padding:10px 20px 10px 15px;
+	margin:1px 0;
+	font-size:16px;
+	transition:background 0.3s;
+	-webkit-transition:background 0.3s;
+	-moz-transition:background 0.3s;
+	-ms-transition:background 0.3s;
+	-o-transition:background 0.3s;
+}
+
+table span.add-to-trash .icons{
+	color:#fff;
+}
+
+table span.add-to-trash:hover{
+	background:#2c3e50;	
+}
+table.compare-table th{
+	width:16%;
+	padding:15px 20px;	
+}
+
+table.compare-table .numeric-input{
+	display:block;
+	margin:0 0 10px 0;
+}
+
+table.compare-table tr:hover{
+	background:#fff;
+}
+
+table.compare-table td{
+	padding:15px 20px;	
+}
+
+table.compare-table p, table.compare-table h5{
+	margin:0;	
+}
+
+table.compare-table td.compare-image{
+	background:#fff;	
+	text-align:center;
+}
+
+table.compare-table td.compare-image img{
+	max-height:150px;	
+}
+
+table.compare-table tr:last-child th{
+	border-bottom:none;
+}
+
+table.compare-table .tag-item{
+	background:#fff;
+}	
+
+table.compare-table .tag-item:hover{
+	background:#1abc9c;
+}	
+.order-table{
+	width:100%;	
+}
+
+.order-table tr:hover{
+	background:#fff;
+}
+
+.order-table p{
+	margin:0;	
+	font-size:14px;
+}
+
+.order-table th.order-status{
+	width:50%;	
+}
+
+.order-table span.price{
+	font-size:14px;	
+}
+
+.order-table .order-number p{
+	color:#1f2228;
+}	
+
+table.order-table td{
+	padding:10px 15px;	
+}
+table.orderinfo-table{
+	width:100%;	
+}
+
+table.orderinfo-table tr:hover{
+	background:#fff;
+}
+
+table.orderinfo-table th{
+	width:170px;
+	padding:5px 20px;	
+}
+
+table.orderinfo-table td{
+	padding:10px 20px;	
+}
+
+table.orderinfo-table span.price{
+	font-size:14px;	
+}
+
+table.orderinfo-table span.price.big{
+	font-size:16px;	
+}
+table.shopping-table{
+	width:100%;	
+}
+
+table.shopping-table tr:hover{
+	background:#fff;
+}
+
+table.shopping-table img{
+	width:80px;
+}	
+
+table.shopping-table .image-column{
+	background:#fff;	
+	padding:5px;
+	width:80px;
+}
+
+table.shopping-table .quantity input[type="text"]{
+	width:80px;
+}
+
+.checkout-form{
+	padding-bottom:30px;
+}
+table.coupon-table{
+	background:#fff;
+	width:100%;	
+	margin:0;
+}
+
+table.coupon-table td{
+	border:none;
+	padding:0;
+}
+
+table.coupon-table td.fit-cell{
+	padding-left:3px;
+}
