@@ -1645,3 +1645,78 @@ input[type="checkbox"]:checked + label.color-checkbox{
 .home-green .sidebar-box-content>ul>li>a:hover{
 	color:#1abc9c;
 }
+.content{
+	margin-top:30px;
+}
+.boxedcontainer		{	max-width: 1170px; margin:auto; padding:0px 30px;}
+.tp-banner-container{
+	width:100%;
+	position:relative;
+	padding:0;
+	margin-bottom:30px;
+}
+
+
+.tp-leftarrow.default, .tp-rightarrow.default{
+	opacity:0;
+	-webkit-opacity:0;
+	-moz-opacity:0;
+	-ms-opacity:0;
+	-o-opacity:0;
+}
+
+.tp-banner-container:hover .tp-leftarrow.default, .tp-banner-container:hover .tp-rightarrow.default{
+	opacity:0.6;
+	-webkit-opacity:0.6;
+	-moz-opacity:0.6;
+	-ms-opacity:0.6;
+	-o-opacity:0.6;
+}
+
+.tp-banner-container:hover .tp-leftarrow.default:hover, .tp-banner-container:hover .tp-rightarrow.default:hover{
+	opacity:1;
+	-webkit-opacity:1;
+	-moz-opacity:1;
+}
+
+.tp-banner{
+	width:100%;
+	position:relative;
+	color:#2c3e50;
+}
+
+.tp-banner-fullscreen-container {
+	width:100%;
+	position:relative;
+	padding:0;
+}
+
+.tp-banner strong{
+	font-weight:700;
+}
+
+.tp-banner h2{
+	font-size:36px;
+	color:#2c3e50;
+	line-height:38px;
+}
+
+.tp-banner h3{
+	font-size:24px;
+	color:#2c3e50;
+}
+
+.tp-banner span{
+	font-size:18px;
+	color:#2c3e50;
+}
+
+.tp-banner span.price{
+	font-size:24px;
+	color:#2c3e50;
+}
+
+.tp-banner a.button.big{
+	font-size:18px;
+	padding-top:18px;
+}
