@@ -67,3 +67,58 @@ img.align-right{
 iframe{
 	border:none;
 }
+h1{
+	font-size:28px;
+	font-weight:300;
+}
+
+h2{
+	font-size:24px;
+	font-weight:300;
+}
+
+h3{
+	font-size:20px;
+	font-weight:300;
+}
+
+h4{
+	font-size:18px;
+	font-weight:300;
+}
+
+h5{
+	font-size:16px;
+	font-weight:300;
+}
+
+h6{
+	font-size:14px;
+	font-weight:300;
+}
+
+a{
+	color:#1f2228;
+	transition:color 0.1s, background 0.2s;
+	-webkit-transition:color 0.1s, background 0.2s;
+	-moz-transition:color 0.1s, background 0.2s;
+	-ms-transition:color 0.1s, background 0.2s;
+	-o-transition:color 0.1s, background 0.2s;
+}
+
+a:hover{
+	color:#3498db;
+	text-decoration:none;
+}
+
+a:active{
+	text-decoration:none;
+}
+
+span.green{
+	color:#2ecc71;
+}
+
+span.red, span.error{
+	color:#e74c3c;
+}
