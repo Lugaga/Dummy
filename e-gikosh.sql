@@ -210,3 +210,8 @@ ALTER TABLE `userlog`
   ADD PRIMARY KEY (`id`);
 
 --
+
+-- Indexes for table `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`id`);
