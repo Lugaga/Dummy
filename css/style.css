@@ -3285,3 +3285,84 @@ table.product-actions-single input{
 	width:100px!important;
 	margin-left:5px;
 }
+.page-content label{
+	font-size:14px;
+	margin-bottom:5px;
+	display:inline-block;
+}
+
+.contact-info iframe{
+	width:100%;
+	height:300px;	
+}
+
+.contact-item{
+	position:relative;
+	padding-left:60px;	
+	margin:18px 0;
+}
+
+.contact-item .icons{
+	width:40px;
+	height:40px;
+	text-align:center;
+	vertical-align:middle;
+	padding-top:4px;
+	font-size:22px;
+	line-height:32px;
+	background:#ddd;
+	position:absolute;
+	left:0;
+	top:0;	
+	color:#fff;
+}
+
+.contact-item .icon-mail{
+	line-height:28px;
+}
+
+.blue.contact-item .icons{
+	background:#3498db;
+}
+
+.green.contact-item .icons{
+	background:#1abc9c;
+}
+
+.orange.contact-item .icons{
+	background:#f5791f;
+}
+
+.purple.contact-item .icons{
+	background:#9b59b6;
+}
+
+.contact-item p, .contact-form label{
+	color:#596067;
+}
+
+.contact-form input[type="text"], .contact-form textarea{
+	margin-bottom:15px;	
+}
+
+.contact-form input[type="submit"]{
+	background:#34495e;	
+}
+
+.contact-form input[type="submit"]:hover{
+	background:#2c3e50;
+}
+
+.contact-form textarea{
+	height:150px;	
+}
+
+.contact-form span{
+	display:block;
+	margin-top:10px;
+	font-size:14px;
+}
+
+.page-content.contact-form{
+	padding-bottom:30px;
+}
