@@ -741,4 +741,68 @@ border-style:none;
                             -webkit-box-sizing:border-box;
                             -moz-box-sizing:border-box;
                             max-height:none !important;	}
-    
+                            .tp-caption .frontcorner		{
+                                width: 0;
+                                height: 0;
+                                border-left: 40px solid transparent;
+                                border-right: 0px solid transparent;
+                                border-top: 40px solid #00A8FF;
+                                position: absolute;left:-40px;top:0px;
+                            }
+
+.tp-caption .backcorner		{
+                                width: 0;
+                                height: 0;
+                                border-left: 0px solid transparent;
+                                border-right: 40px solid transparent;
+                                border-bottom: 40px solid #00A8FF;
+                                position: absolute;right:0px;top:0px;
+                            }
+
+.tp-caption .frontcornertop		{
+                                width: 0;
+                                height: 0;
+                                border-left: 40px solid transparent;
+                                border-right: 0px solid transparent;
+                                border-bottom: 40px solid #00A8FF;
+                                position: absolute;left:-40px;top:0px;
+                            }
+
+.tp-caption .backcornertop		{
+                                width: 0;
+                                height: 0;
+                                border-left: 0px solid transparent;
+                                border-right: 40px solid transparent;
+                                border-top: 40px solid #00A8FF;
+                                position: absolute;right:0px;top:0px;
+                            }
+                            .fullscreen-container {
+                                width:100%;
+                                position:relative;
+                                padding:0;
+                        }
+                        
+                        
+                        
+                        .fullwidthbanner-container{
+                            width:100%;
+                            position:relative;
+                            padding:0;
+                            overflow:hidden;
+                        }
+                        
+                        .fullwidthbanner-container .fullwidthbanner{
+                            width:100%;
+                            position:relative;
+                        }
+                        .tp-simpleresponsive .caption,
+                        .tp-simpleresponsive .tp-caption {
+                            /*-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";		-moz-opacity: 0;	-khtml-opacity: 0;	opacity: 0; */
+                            position:absolute;visibility: hidden;
+                            -webkit-font-smoothing: antialiased !important;
+                        }
+                        
+                        
+                        .tp-simpleresponsive img	{	max-width:none;}
+                        
+                                              
