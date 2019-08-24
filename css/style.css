@@ -1573,3 +1573,75 @@ label.color-checkbox.white{
 label.color-checkbox.black{
 	background:#000;
 }
+label.color-checkbox.blue{
+	background:#3498db;
+}
+
+label.color-checkbox.green{
+	background:#00a847;
+}
+
+label.color-checkbox{
+	width:30px;
+	height:30px;
+	border:2px solid #fff;
+	margin-right:10px!important;
+	outline:1px solid #eee;
+}
+
+label.color-checkbox:before{
+	display:none!important;
+	width:0!important;
+	height:0!important;
+}
+
+input[type="checkbox"]:checked + label.color-checkbox{
+	outline:1px solid #34495e;	
+}
+.purple .sidebar-box-heading, .purple a.tag-item:hover{
+	background:#9b59b6;
+}	
+
+.purple .sidebar-box-content>ul>li>a:hover{
+	color:#9b59b6;
+}
+
+.blue .sidebar-box-heading, .blue a.tag-item:hover{
+	background:#3498db;
+}	
+
+.blue .sidebar-box-content>ul>li>a:hover{
+	color:#3498db;
+}
+
+.red .sidebar-box-heading, .red a.tag-item:hover{
+	background:#e74c3c;
+}	
+
+.red .sidebar-box-content>ul>li>a:hover{
+	color:#e74c3c;
+}
+
+.green .sidebar-box-heading, .green a.tag-item:hover{
+	background:#1abc9c;
+}	
+
+.green .sidebar-box-content>ul>li>a:hover{
+	color:#1abc9c;
+}
+
+.orange .sidebar-box-heading, .orange a.tag-item:hover{
+	background:#f5791f;
+}	
+
+.orange .sidebar-box-content>ul>li>a:hover{
+	color:#f5791f;
+}
+
+.home-green .sidebar-box-heading, .orange a.tag-item:hover{
+	background:#1abc9c;
+}	
+
+.home-green .sidebar-box-content>ul>li>a:hover{
+	color:#1abc9c;
+}
