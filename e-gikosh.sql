@@ -203,3 +203,10 @@ ALTER TABLE `products`
 --
 ALTER TABLE `subcategory`
   ADD PRIMARY KEY (`id`);
+
+-- Indexes for table `userlog`
+--
+ALTER TABLE `userlog`
+  ADD PRIMARY KEY (`id`);
+
+--
