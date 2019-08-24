@@ -2533,3 +2533,122 @@ span.action-name{
 	overflow:hidden;
 	background:#f7f7f7;
 }
+.tab-heading.margin-heading{
+	margin-bottom:10px;
+}
+
+.tab-heading a.button{
+	font-size:18px;
+	padding:13px 30px;
+	height:50px;
+	margin-right:-3px;
+	background:#a1aaaf!important;
+}
+
+.tab-heading a:hover, .tab-heading a.button.active{
+	background:#34495e!important;
+	text-decoration:none;
+}
+
+.tab-content{
+	background:#fff;
+	margin-bottom:30px;
+	font-size:14px;
+	padding:10px 20px;	
+}
+
+p .tag-item{
+	vertical-align:middle;	
+}
+
+.home-green .tag-item:hover{
+	background:#1abc9c;	
+}
+
+.tab-content strong{
+	color:#596067;	
+}
+.accordion ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	margin-bottom:30px;
+}
+
+.accordion-header{
+	color:#fff;
+	background:#a1aaaf;
+	text-transform:uppercase;
+	position:relative;
+	margin:0 0 1px;
+	overflow:hidden;
+	padding:13px 20px;
+	cursor:pointer;
+	height:50px;
+	transition:background 0.3s;
+	-webkit-transition:background 0.3s;
+	-moz-transition:background 0.3s;
+	-ms-transition:background 0.3s;
+	-o-transition:background 0.3s;
+}
+
+.accordion-active .accordion-header, .accordion-header:hover{
+	background:#34495e;
+}
+
+.accordion-active .accordion-header .accordion-button i:before{
+	content: '\e98a';
+}
+
+.accordion-header .accordion-button i:before{
+	content: '\e987';
+}
+
+.accordion-header h4{
+	margin:0;
+}
+
+.accordion-button{
+	color:#fff;
+	position:absolute;
+	top:13px;
+	font-size:24px;
+	right:15px;
+}
+
+.accordion-content{
+	background:#fff;
+	margin-bottom:0!important;
+	font-size:14px;
+	padding:10px 20px;	
+}
+
+.accordion-content strong{
+	color:#596067;	
+}
+.news{
+	margin-bottom:30px;	
+}
+
+.news-background{
+	background:#f7f7f7;
+}
+
+.news-content{
+	padding:10px 30px 10px 5px;
+}
+
+.news-content h5{
+	margin:0 0 5px;
+}
+
+.news-content p{
+	font-size:14px;
+	color:#596067;
+	margin:10px 0;
+}
+
+span.date{
+	font-size:12px;
+	color:#7a8188;
+}
