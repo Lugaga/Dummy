@@ -549,3 +549,239 @@ span.quantity{
 .no-border{
 	border:none!important;	
 }
+#main-navigation{
+	position:relative;
+}
+
+#main-navigation>ul, #main-navigation>ul>li>ul, #main-navigation>ul>li>ul>li>ul, #main-navigation>ul>li>ul>li>ul>li>ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	display:table;
+	width:100%;
+}
+
+#main-navigation>ul{
+	table-layout:fixed;
+}
+
+#main-navigation>ul>li{
+	border-right:1px solid #e2f6f9;
+	display:table-cell;
+	background:#34495e;
+}
+
+#main-navigation>ul>li:hover>a>.icons{
+	left:0px;
+}
+
+#main-navigation>ul>li>a{
+	padding:5px 20px 13px;
+	background:#34495e;
+	color:#fff;
+	display:block;
+}
+
+#main-navigation>ul>li>a .nav-caption{
+	margin-top:15px;
+}
+
+#main-navigation.style2>ul>li>a .nav-caption,
+#main-navigation.style3>ul>li>a .nav-caption,
+#main-navigation.style5>ul>li>a .nav-caption{
+	margin-top:5px;
+}
+
+span.nav-caption{
+	display:block;
+	font-size:18px;
+	text-transform:uppercase;
+}
+
+span.nav-description{
+	display:block;
+	font-size:14px;
+}
+
+#main-navigation>ul>li>a .icons{
+	font-size:18px;
+	display:block;
+	color:#fff;
+	text-align:right;
+	margin-bottom:5px;
+	position:relative;
+	left:10px;
+	transition:all 0.3s;
+	-webkit-transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	-ms-transition:all 0.3s;
+	-o-transition:all 0.3s;
+}
+
+#main-navigation.style1>ul>li:hover>a,
+#main-navigation.style1>ul>li:hover,
+#main-navigation.style1>ul>li.current-item,
+#main-navigation.style1>ul>li.current-item>a{
+	background:#34495e!important;
+}
+
+#main-navigation.style2>ul>li>a{
+	padding:15px 20px;	
+}
+
+#main-navigation.style2>ul>li:hover>a,
+#main-navigation.style2>ul>li:hover,
+#main-navigation.style2>ul>li.current-item,
+#main-navigation.style2>ul>li.current-item>a{
+	background:#34495e!important;
+}
+
+#main-navigation.style3>ul>li>a{
+	padding:15px 20px;	
+	background:#34495e!important;
+}
+
+#main-navigation.style4>ul>li>a{
+	background:#34495e!important;
+}
+
+#main-navigation.style3>ul>li>a:hover, #main-navigation.style3>ul>li.current-item>a{
+	background:inherit!important;
+}
+
+#main-navigation.style4>ul>li>a:hover, #main-navigation.style4>ul>li.current-item>a{
+	background:inherit!important;
+}
+
+#main-navigation.style5>ul>li>a{
+	padding:15px 20px;	
+}
+
+#main-navigation.style5>ul>li:hover>a,
+#main-navigation.style5>ul>li:hover,
+#main-navigation.style5>ul>li.current-item,
+#main-navigation.style5>ul>li.current-item>a{
+	background:#34495e!important;
+}	
+
+#main-navigation.style6>ul>li>a{
+	padding:15px 20px;	
+	background:#34495e!important;
+}
+
+#main-navigation.style6>ul>li>a:hover, #main-navigation.style6>ul>li.current-item>a{
+	background:inherit!important;
+}
+
+#main-navigation li ul.normal-dropdown{
+	color:#fff;
+	padding:1px 0 0 0;
+	position:absolute;
+	overflow:visible;
+	z-index:9999;
+	width:200px;
+	display:none;
+}
+
+#main-navigation li ul.normal-dropdown li{
+	background:#1abc9c;
+	position:relative;
+	display:block;
+}
+
+#main-navigation li ul.normal-dropdown li:first-child{
+	padding-top:12px;
+}
+
+#main-navigation li ul.normal-dropdown li:last-child{
+	padding-bottom:12px;
+}
+
+#main-navigation li ul.normal-dropdown a{
+	padding:8px 20px;
+	color:#fff;
+	display:block;
+}
+
+#main-navigation li ul.normal-dropdown li:hover>a{
+	background:#16a085;
+}
+
+#main-navigation li ul.normal-dropdown li ul{
+	position:absolute;
+	left:100%;
+	top:-12px;
+	padding-top:0;
+	padding-left:1px;
+	color:#fff;
+	z-index:9999;
+	display:none;
+}
+
+/*#main-navigation li ul.normal-dropdown li:hover ul{
+	display:block;
+}*/
+
+#main-navigation li ul.normal-dropdown li:first-child ul{
+	top:0;
+	z-index:9999;
+}
+
+#main-navigation li:hover>ul.normalAnimation, #main-navigation ul.normal-dropdown li:hover > ul.normalAnimation{
+	display:block;
+}
+
+#main-navigation ul.wide-dropdown{
+	display:none;
+	z-index:9999;
+	border-top:1px solid #e5f5f9;
+	padding-top:1px;
+	width:auto;
+	overflow:hidden;
+	position:absolute;
+}
+
+#main-navigation ul.wide-dropdown>li{
+	float:left;
+	min-width:300px;
+	padding:16px 0;
+}
+
+#main-navigation ul.wide-dropdown ul a, #main-navigation ul.wide-dropdown .nav-caption{
+	padding:8px 20px;
+	display:block;
+	color:#fff;
+}
+
+#main-navigation>ul>li>ul.normal-dropdown .icons{
+	font-size:16px;
+	display:inline-block;
+	color:#fff;
+	position:relative;
+	left:10px;
+	float:right;
+}
+
+#main-navigation li.home-green>a, #main-navigation .home-green ul.wide-dropdown, #main-navigation li.home-green{
+	background:#1abc9c;
+}
+
+#main-navigation li.red>a, #main-navigation .red ul.wide-dropdown, #main-navigation li.red{
+	background:#e74c3c;
+}
+
+#main-navigation li.blue>a, #main-navigation .blue ul.wide-dropdown, #main-navigation li.blue{
+	background:#3498db;
+}
+
+#main-navigation li.orange>a, #main-navigation .orange ul.wide-dropdown, #main-navigation li.orange{
+	background:#f5791f;
+}
+
+#main-navigation li.green>a, #main-navigation .green ul.wide-dropdown, #main-navigation li.green{
+	background:#2ecc71;
+}
+
+#main-navigation li.purple>a, #main-navigation .purple ul.wide-dropdown, #main-navigation li.purple{
+	background:#9b59b6;
+}
