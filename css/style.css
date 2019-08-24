@@ -1264,3 +1264,176 @@ li.orange .parent-border{
 li.orange .parent-arrow:after{
 	border-bottom-color:#f5791f;	
 }
+.sidebar-box{
+	margin-bottom:30px;
+	color:#7a8188;
+}
+
+.sidebar-box .padding-box{
+	padding:15px;	
+}
+
+.sidebar-box-heading{
+	color:#fff;
+	text-transform:uppercase;
+	background:#34495e;
+	overflow:hidden;
+	height:50px;
+	padding:12px 20px 12px 40px;
+}
+
+.sidebar-box-heading .icons{
+	position:absolute;
+	left:30px;
+}
+
+.sidebar-box-heading h4{
+	margin:0;
+	display:inline-block;
+	padding-left:5px;
+}
+
+.sidebar-box-content{
+	background:#fff;
+}
+
+.sidebar-box-content.sidebar-padding-box{
+	padding:20px 15px;
+}
+
+.sidebar-box-content>*{
+	margin:0;
+}
+
+.sidebar-box-content ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.sidebar-box-content>ul{
+	padding:20px 0;
+}
+
+.sidebar-box-content>ul>li{
+	position:relative;	
+}
+
+.sidebar-box-content>ul>li>a{
+	display:block;
+	padding:8px 35px 8px 20px;
+}
+
+.sidebar-box-content>ul>li>a .icons{
+	position:absolute;
+	right:15px;
+	top:10px;
+	font-size:14px;
+}
+
+.sidebar-box-content>ul>li>a:hover{
+	background:#f7f7f7;
+}
+
+.sidebar-box-content>ul>li:hover .sidebar-dropdown{
+	display:table;
+}
+
+.sidebar-dropdown{
+	position:absolute;
+	left:100%;
+	top:-10px;	
+	z-index:6000;
+	display:none;
+	background:#9b59b6;
+}
+
+.sidebar-box .chosen-single{
+	height:40px;
+	font-size:14px;
+	color:#7a8188;
+	padding: 8px 0 0 8px;
+	border:1px solid #e6e6e6;
+	margin-top:5px;
+}
+
+.sidebar-box .chosen-results{
+	border:1px solid #e6e6e6;
+	border-top:none;
+}
+
+.sidebar-box .chosen-results li{
+	padding:10px 6px;
+}
+
+.sidebar-box .chosen-single div {
+  top:8px;
+}
+
+.right-sidebar .sidebar-dropdown{
+	left:auto;
+	right:100%;	
+}
+
+.sidebar-dropdown>li{
+	overflow:hidden;
+	display:table-cell;
+	vertical-align:top;
+}
+
+.sidebar-dropdown>li>ul{
+	float:left;
+	width:250px;
+	padding:10px 0;
+	display:table;
+}
+
+.sidebar-dropdown>li>ul>li>a{
+	padding:8px 20px;
+	display:block;	
+	color:#fff;
+}
+
+.sidebar-dropdown>li>ul>li>a:hover{
+	background:#8e44ad;	
+}
+
+.sidebar-dropdown>li:last-child{
+	margin:0;	
+}
+
+.sidebar-slider{
+	position:relative;
+	display:block;
+	overflow:hidden;
+}
+
+.sidebar-slider .flex-control-nav{
+	display:block;
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	width:100%;
+}
+
+.sidebar-slider .flex-control-paging li a {
+	border-radius:0;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	-ms-border-radius:0;
+	-o-border-radius:0;
+	width:9px;
+	height:9px;
+	background:#ccc;
+}
+
+.sidebar-slider .flex-control-paging li a:hover,  .sidebar-slider .flex-control-paging li a.flex-active{
+	background:#27ae60;
+}
+
+.sidebar-slider .slider-nav{
+	background:#f7f7f7;
+	display:block;
+	height:30px;
+}
