@@ -2889,3 +2889,30 @@ a .banner-item{
 .page-content .chosen-single div {
 	top:8px!important;
 }
+.checkout-form{
+	margin-bottom:30px;
+	background:#f7f7f7;	
+	padding:20px;
+	font-size:14px;
+}
+
+.checkout-form table{
+	text-align:right;
+	width:100%;	
+}
+
+.checkout-form table td{
+	width:1%;	
+	padding:0 20px!important;
+}
+
+.checkout-form table td.empty-cell{
+	width:100%;	
+}
+
+.checkout-form textarea{
+	width:100%;
+	height:150px;
+	margin:-10px 0 10px;
+	border:1px solid #ddd;
+}
