@@ -109,4 +109,5 @@ return true;
 				</div><!--/.span9-->
 			</div>
 		</div><!--/.container-->
-	</div><!--/.wrapper-->
+    </div><!--/.wrapper-->
+    <?php include('include/footer.php');?>
