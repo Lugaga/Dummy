@@ -215,3 +215,10 @@ ALTER TABLE `userlog`
 --
 ALTER TABLE `users`
   ADD PRIMARY KEY (`id`);
+
+-- Indexes for table `wishlist`
+--
+ALTER TABLE `wishlist`
+  ADD PRIMARY KEY (`id`);
+
+--
