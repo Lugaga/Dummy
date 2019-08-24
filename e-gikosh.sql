@@ -163,3 +163,7 @@ CREATE TABLE `wishlist` (
 ALTER TABLE `admin`
   ADD PRIMARY KEY (`id`);
 
+-- Indexes for table `category`
+--
+ALTER TABLE `category`
+  ADD PRIMARY KEY (`id`);
