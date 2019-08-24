@@ -126,3 +126,25 @@ CREATE TABLE `userlog` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
+-- Table structure for table `users`
+--
+
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `email` varchar(255) DEFAULT NULL,
+  `contactno` bigint(11) DEFAULT NULL,
+  `password` varchar(255) DEFAULT NULL,
+  `shippingAddress` longtext,
+  `shippingState` varchar(255) DEFAULT NULL,
+  `shippingCity` varchar(255) DEFAULT NULL,
+  `shippingPincode` int(11) DEFAULT NULL,
+  `billingAddress` longtext,
+  `billingState` varchar(255) DEFAULT NULL,
+  `billingCity` varchar(255) DEFAULT NULL,
+  `billingPincode` int(11) DEFAULT NULL,
+  `regDate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updationDate` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
