@@ -49,3 +49,17 @@ CREATE TABLE `category` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
+-- Table structure for table `orders`
+--
+
+CREATE TABLE `orders` (
+  `id` int(11) NOT NULL,
+  `userId` int(11) DEFAULT NULL,
+  `productId` varchar(255) DEFAULT NULL,
+  `quantity` int(11) DEFAULT NULL,
+  `orderDate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `paymentMethod` varchar(50) DEFAULT NULL,
+  `orderStatus` varchar(55) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
