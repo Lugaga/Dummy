@@ -182,3 +182,8 @@ ALTER TABLE `ordertrackhistory`
 --
 ALTER TABLE `productreviews`
   ADD PRIMARY KEY (`id`);
+
+-- Indexes for table `products`
+--
+ALTER TABLE `products`
+  ADD PRIMARY KEY (`id`);
