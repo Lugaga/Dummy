@@ -172,3 +172,8 @@ ALTER TABLE `category`
 --
 ALTER TABLE `orders`
   ADD PRIMARY KEY (`id`);
+
+-- Indexes for table `ordertrackhistory`
+--
+ALTER TABLE `ordertrackhistory`
+  ADD PRIMARY KEY (`id`);
