@@ -67,3 +67,40 @@ var Calendar = function () {
                     $(this).remove();
                 }
             },
+            selectable: true,
+            selectHelper: true,
+            select: function (start, end, allDay) {
+                $modal.modal({
+                    backdrop: 'static'
+                });
+                form = $("<form></form>");
+                form.append("<div class='row'></div>");
+                form.find(".row").append("<div class='col-md-6'><div class='form-group'><label class='control-label'>New Event Name</label><input class='form-control' placeholder='Insert Event Name' type=text name='title'/></div></div>").append("<div class='col-md-6'><div class='form-group'><label class='control-label'>Category</label><select class='form-control' name='category'></select></div></div>").find("select[name='category']").append("<option value='label-default'>Work</option>").append("<option value='label-green'>Home</option>").append("<option value='label-purple'>Holidays</option>").append("<option value='label-orange'>Party</option>").append("<option value='label-yellow'>Birthday</option>").append("<option value='label-teal'>Generic</option>").append("<option value='label-beige'>To Do</option>");
+                $modal.find('.remove-event').hide().end().find('.save-event').show().end().find('.modal-body').empty().prepend(form).end().find('.save-event').unbind('click').click(function () {
+                    form.submit();
+                });
+                $modal.find('form').on('submit', function () {
+                    title = form.find("input[name='title']").val();
+                    $categoryClass = form.find("select[name='category'] option:checked").val();
+                    if (title !== null) {
+                        calendar.fullCalendar('renderEvent', {
+                                title: title,
+                                start: start,
+                                end: end,
+                                allDay: allDay,
+                                className: $categoryClass
+                            }, true // make the event "stick"
+                        );
+                    }
+                    $modal.modal('hide');
+                    return false;
+                });
+                calendar.fullCalendar('unselect');
+            },
+            eventClick: function (calEvent, jsEvent, view) {
+                var form = $("<form></form>");
+                form.append("<label>Change event name</label>");
+                form.append("<div class='input-group'><input class='form-control' type=text value='" + calEvent.title + "' /><span class='input-group-btn'><button type='submit' class='btn btn-success'><i class='fa fa-check'></i> Save</button></span></div>");
+                $modal.modal({
+                    backdrop: 'static'
+                });
