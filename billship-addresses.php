@@ -82,3 +82,21 @@ echo "<script>alert('Shipping Address has been updated');</script>";
 <?php include('includes/main-header.php');?>
 <?php include('includes/menu-bar.php');?>
 </header>
+<div class="breadcrumb">
+	<div class="container">
+		<div class="breadcrumb-inner">
+			<ul class="list-inline list-unstyled">
+				<li><a href="#">Home</a></li>
+				<li class='active'>Checkout</li>
+			</ul>
+		</div><!-- /.breadcrumb-inner -->
+	</div><!-- /.container -->
+</div><!-- /.breadcrumb -->
+
+<div class="body-content outer-top-bd">
+	<div class="container">
+		<div class="checkout-box inner-bottom-sm">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="panel-group checkout-steps" id="accordion">
+						<!-- checkout-step-01  -->
