@@ -106,3 +106,133 @@
     margin: 0;
     list-style-type: none;
 }
+.selectboxit-option-first {
+}
+
+/* The first Drop Down option optgroup */
+.selectboxit-optgroup-header + .selectboxit-option-first {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+/* The last Drop Down option */
+.selectboxit-option-last {
+}
+
+/* Drop Down optgroup headers */
+.selectboxit-optgroup-header {
+  font-weight: bold;
+}
+
+/* Drop Down optgroup header hover psuedo class */
+.selectboxit-optgroup-header:hover {
+  cursor: default;
+}
+
+/* Drop Down down arrow container */
+.selectboxit-arrow-container {
+  /* Positions the down arrow */
+  width: 30px;
+  position: absolute;
+  right: 0;
+}
+
+/* Drop Down down arrow */
+.selectboxit .selectboxit-arrow-container .selectboxit-arrow {
+  /* Horizontally centers the down arrow */
+  margin: 0 auto;
+  position: absolute;
+  top: 35%;
+  right: 0;
+  left: 0;
+}
+
+/* Drop Down down arrow for jQueryUI and jQuery Mobile */
+.selectboxit .selectboxit-arrow-container .selectboxit-arrow.ui-icon {
+  top: 30%;
+}
+
+/* Drop Down individual option icon positioning */
+.selectboxit-option-icon-container {
+  float: left;
+}
+
+.selectboxit-container .selectboxit-option-icon {
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+/* Drop Down individual option icon positioning */
+.selectboxit-option-icon-url {
+  width: 18px;
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  float: left;
+}
+
+.selectboxit-rendering {
+  display: inline-block !important;
+  *display: inline !important;
+  zoom: 1 !important;
+  visibility: visible !important;
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
+/* jQueryUI and jQuery Mobile compatability fix - Feel free to remove this style if you are not using jQuery Mobile */
+.jqueryui .ui-icon {
+  background-color: inherit;
+}
+
+/* Another jQueryUI and jQuery Mobile compatability fix - Feel free to remove this style if you are not using jQuery Mobile */
+.jqueryui .ui-icon-triangle-1-s {
+  background-position: -64px -16px;
+}
+.selectboxit-btn {
+    background-color: #fff;
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-bottom-color: #b3b3b3;
+    color:#7a8188;
+  }
+  
+  .selectboxit-btn.selectboxit-enabled:hover,
+  .selectboxit-btn.selectboxit-enabled:focus,
+  .selectboxit-btn.selectboxit-enabled:active {
+    color: #7a8188;
+  }
+  
+  .selectboxit-btn.selectboxit-enabled:hover,
+  .selectboxit-btn.selectboxit-enabled:focus {
+    color: #7a8188;
+    text-decoration: none;
+    background-position: 0 -15px;
+  }
+  
+  .selectboxit-default-arrow {
+    width: 10px;
+    height: 10px;
+    border-top: 5px solid #7a8188;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+  }
+  
+  .selectboxit-list {
+    background-color: #ffffff;
+  }
+  
+  .selectboxit-list .selectboxit-option-anchor {
+    color: #333333;
+  }
+  
+  .selectboxit-list > .selectboxit-focus > .selectboxit-option-anchor {
+    background-color: #f7f7f7;
+  }
+  
+  .selectboxit-list > .selectboxit-disabled > .selectboxit-option-anchor {
+    color: #999999;
+  }
