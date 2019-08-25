@@ -119,3 +119,9 @@ var Calendar = function () {
             }
         });
     };
+    return {
+        init: function () {
+            runCalendar();
+        }
+    };
+}();
