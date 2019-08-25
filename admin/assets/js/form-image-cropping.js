@@ -178,5 +178,11 @@ var ImageCropping = function () {
         $('#bgo_buttons .btn:first,#bgc_buttons .btn:last').addClass('active');
         $('#interface').show();
     };
-    
+    return {
+        init: function () {
+            runBasicHandler();
+            runPreviewPane();
+            runAnimationsTransitions();
+        }
+    };
 }();
