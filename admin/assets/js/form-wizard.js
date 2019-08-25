@@ -189,5 +189,9 @@ var FormWizard = function () {
         // all step validation logic
         return isStepValid;
     };
-    
+    return {
+        init: function () {
+            initWizard();
+        }
+    };
 }();
