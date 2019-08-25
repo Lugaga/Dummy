@@ -6,3 +6,6 @@ var FormElements = function () {
             limitText: 'You\'re allowed to input %n character%s into this field.'
         });
     };
+    var runAutosize = function () {
+        $("textarea.autosize").autosize();
+    };
