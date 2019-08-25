@@ -9,3 +9,9 @@ var FormElements = function () {
     var runAutosize = function () {
         $("textarea.autosize").autosize();
     };
+    var runSelect2 = function () {
+        $(".search-select").select2({
+            placeholder: "Select a State",
+            allowClear: true
+        });
+    };
