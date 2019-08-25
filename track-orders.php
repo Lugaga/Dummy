@@ -35,3 +35,16 @@ include('includes/config.php');
 		<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
 		<link rel="shortcut icon" href="assets/images/favicon.ico">
 	</head>
+    <body class="cnt-home">
+	
+    <header class="header-style-1">
+    
+        <!-- ============================================== TOP MENU ============================================== -->
+    <?php include('includes/top-header.php');?>
+    <!-- ============================================== TOP MENU : END ============================================== -->
+    <?php include('includes/main-header.php');?>
+        <!-- ============================================== NAVBAR ============================================== -->
+    <?php include('includes/menu-bar.php');?>
+    <!-- ============================================== NAVBAR : END ============================================== -->
+    
+    </header>
