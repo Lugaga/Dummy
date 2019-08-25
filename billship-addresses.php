@@ -100,3 +100,27 @@ echo "<script>alert('Shipping Address has been updated');</script>";
 				<div class="col-md-8">
 					<div class="panel-group checkout-steps" id="accordion">
 						<!-- checkout-step-01  -->
+                        <div class="panel panel-default checkout-step-01">
+
+<!-- panel-heading -->
+    <div class="panel-heading">
+    <h4 class="unicase-checkout-title">
+        <a data-toggle="collapse" class="" data-parent="#accordion" href="#collapseOne">
+          <span>1</span>Billing Address
+        </a>
+     </h4>
+</div>
+<!-- panel-heading -->
+
+<div id="collapseOne" class="panel-collapse collapse in">
+
+    <!-- panel-body  -->
+    <div class="panel-body">
+        <div class="row">		
+            <div class="col-md-12 col-sm-12 already-registered-login">
+
+<?php
+$query=mysqli_query($con,"select * from users where id='".$_SESSION['id']."'");
+while($row=mysqli_fetch_array($query))
+{
+?>
