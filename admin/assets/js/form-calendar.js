@@ -104,3 +104,18 @@ var Calendar = function () {
                 $modal.modal({
                     backdrop: 'static'
                 });
+                $modal.find('.remove-event').show().end().find('.save-event').hide().end().find('.modal-body').empty().prepend(form).end().find('.remove-event').unbind('click').click(function () {
+                    calendar.fullCalendar('removeEvents', function (ev) {
+                        return (ev._id == calEvent._id);
+                    });
+                    $modal.modal('hide');
+                });
+                $modal.find('form').on('submit', function () {
+                    calEvent.title = form.find("input[type=text]").val();
+                    calendar.fullCalendar('updateEvent', calEvent);
+                    $modal.modal('hide');
+                    return false;
+                });
+            }
+        });
+    };
