@@ -148,3 +148,9 @@ while($row=mysqli_fetch_array($query))
     </form>
     <?php } ?>
 </div>
+</div>			
+		</div>
+		<!-- panel-body  -->
+
+	</div><!-- row -->
+</div>
