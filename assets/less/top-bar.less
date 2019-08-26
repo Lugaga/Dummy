@@ -1,0 +1,40 @@
+.top-bar{
+	background:#f4f4f4;
+	padding: 10px 0 9px;
+	font-size: 12px;
+	.cnt-account{
+		float:left;
+		padding:6px 0px;
+		ul {
+			margin:0px;
+          > li{
+          	display: inline-block;
+		    line-height: 12px;
+		    padding: 3px 12px;
+		    border-left: 1px solid #e2e2e2;
+		    &:last-child{
+		    	border-right: 1px solid #e2e2e2;
+		    }
+		    a{
+		    	
+			    color: @gray;
+			    padding:0px;			    
+			    font-weight:400;
+			    -webkit-transition: all 0.2s linear 0s;
+				  -moz-transition: all 0.2s linear 0s;
+				  -o-transition: all 0.2s linear 0s;
+				  transition: all 0.2s linear 0s;
+				    .icon{
+				    	 display: block;
+					     float: left;
+					     padding-right: 6px;
+					     font-size:11px;
+				    }
+				    &:hover,
+				    &:focus{
+				    	text-decoration:none;
+				    }
+			    }
+	        }
+	    }
+	}
