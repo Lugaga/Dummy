@@ -380,3 +380,76 @@
             }
         }
 }
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+    .main-header{
+        .top-search-holder {
+            .search-area {
+                .control-group{
+                    position: relative;
+
+                    .search-button{
+                        position: absolute;
+                        top: 0px;
+                        right: 0px;
+                    }
+                } 
+            }
+        }
+    }
+
+    .category-carousel {
+        .item{
+             height: auto;
+        }
+    }
+
+    .filters-container .nav-tabs.nav-tab-box li{
+        margin-right: 3px;
+    }
+
+    .filters-container .lbl-cnt .lbl{
+         margin-right: -1px;
+    }
+
+    .cnt-homepage{
+         .single-product {
+            .product-info-block{
+                 .cart{
+                      clear: both;
+                      margin-top: 20px;   
+                }
+             }
+         }
+    }
+
+    .shopping-cart{
+        .estimate-ship-tax {
+            table {
+                thead {
+                    tr {
+                        th {
+                            .estimate-title{
+                               font-size: 16px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .shopping-cart .cart-shopping-total table thead tr th .cart-sub-total, .shopping-cart .cart-shopping-total table thead tr th .cart-grand-total{
+        font-size: 16px !important;
+    }
+
+    .wrapper{
+       .box {
+            .wrapper-inner{
+                .container{
+                    width: auto !important;
+                }
+            }
+        }
+    }
+}
