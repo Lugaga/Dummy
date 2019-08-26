@@ -41,3 +41,52 @@
   transition: all 200ms ease-out;
   opacity: 0;
 }
+
+#owl-main .owl-prev {
+    left:20px;/* -35px;*/
+  }
+  #owl-main .owl-next {
+    right: 20px;
+  }
+  #owl-main:hover .owl-prev {
+    left: 0px;
+    opacity: 0.5;
+  }
+  #owl-main:hover .owl-next {
+    right: 0px;
+    opacity:0.5;
+  }
+  #owl-main:hover .owl-prev:hover,
+  #owl-main:hover .owl-next:hover {
+    opacity: 1;
+  }
+  #owl-main .owl-outer-nav:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -15%;
+    width: 130%;
+    height: 100%;
+    z-index: 0;
+  }
+  #owl-main .owl-outer-nav .owl-wrapper-outer,
+  #owl-main .owl-outer-nav .owl-pagination,
+  #owl-main .owl-outer-nav .owl-prev,
+  #owl-main .owl-outer-nav .owl-next {
+    z-index: 1;
+  }
+  #owl-main .owl-outer-nav .owl-controls {
+    position: static;
+  }
+  #owl-main .owl-outer-nav .owl-prev {
+    left: -65px;
+  }
+  #owl-main .owl-outer-nav .owl-next {
+    right: -65px;
+  }
+  #owl-main .owl-outer-nav:hover .owl-prev {
+    left: -80px;
+  }
+  #owl-main .owl-outer-nav:hover .owl-next {
+    right: -80px;
+  }
