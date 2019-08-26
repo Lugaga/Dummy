@@ -34,4 +34,42 @@
 				font-size:14px;
 			}
 		}
+    }
+    .cart{
+		margin-top:5px;
+		opacity:0;
+		-webkit-transition: all 0.2s linear 0s;
+		  -moz-transition: all 0.2s linear 0s;
+		  -o-transition: all 0.2s linear 0s;
+		  transition: all 0.2s linear 0s;
+	    width: 100%;
+	    z-index: 666;
+	    left:0px;
+		.action{
+			ul{
+				li{
+					&.add-cart-button{
+						.btn.btn-primary.icon{
+						    border-bottom-right-radius: 0;
+						    border-top-right-radius: 0;
+						    background:#575757 ;
+						}
+						
+					}
+					float:left;
+					&.lnk{
+						margin:10px 0px;
+						a{
+							padding:0 10px;
+							color:#dadada;
+						}
+						&.wishlist{
+							border-right:1px solid #dadada;
+						}
+					}
+				}
+
+			}
+		}
 	}
+}
