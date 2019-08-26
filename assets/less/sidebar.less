@@ -109,3 +109,87 @@
            }
        }
    }
+   .side-menu2{
+    nav{
+        .nav{
+            li{
+                a{
+                    padding:14.3px 15px;
+                }
+            }
+        }
+    }
+
+}
+
+.sidebar-module-container{
+    .sidebar-widget {
+        .widget-header{
+            background:#eeeeee;
+            padding:10px 15px;
+            .widget-title{
+                font-size:14px;
+                font-family: 'FjallaOneRegular';
+                margin:0px;
+
+            }
+        }
+        .sidebar-widget-body{
+            .accordion{
+                .accordion-group{
+                    .accordion-heading{
+                        .accordion-toggle{
+                            clear: both;
+                            display: block;
+                            font-family: 'Roboto',sans-serif;
+                            font-size: 13px;
+                            font-weight: 300;
+                            line-height: 36px;
+                            
+                                &:after{
+                                    content: "\f147";
+                                    float: right;
+                                    font-family: fontawesome;
+                                }
+                                &.collapsed{
+                                    color: @text-color;
+
+                                &:after{
+                                     color: #636363;
+                                     content: "\f196";
+                                      font-family: fontawesome;
+                                }
+                            }
+                        }
+                    }
+                    .accordion-body{
+                        .accordion-inner{
+                         margin: 14px 0 20px;
+                            ul{
+                                padding-left:15px;
+                                li{
+                                    line-height:27px;
+                                    a{
+                                        color: @text-color;
+                                        &:before{
+                                             content: "\f105";
+                                            font-family: fontawesome;
+                                            font-size: 14px;
+                                            line-height: 15px;
+                                            margin: 0 5px 0 0;
+                                           -webkit-transition:  all 0.3s ease 0s;
+                                          -moz-transition:  all 0.3s ease 0s;
+                                          -o-transition:  all 0.3s ease 0s;
+                                          transition: all 0.3s ease 0s;
+                                        
+                                        }
+                                        &:hover:before{
+                                            margin: 0 8px 0 0;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
