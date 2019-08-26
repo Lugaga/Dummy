@@ -157,3 +157,58 @@
     }
 }
 
+.product-micro .product-image .image a .zoom-overlay:before {
+    color: #FFFFFF;
+    content: "\f00e";
+    font-family: fontawesome;
+    left: 45%;
+    position: relative;
+    right: 40%;
+}
+
+.product-micro .product-image .image a .zoom-overlay{
+	    
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+       -webkit-transition: all 0.2s linear 0s;
+	  -moz-transition: all 0.2s linear 0s;
+	  -o-transition: all 0.2s linear 0s;
+	  transition: all 0.2s linear 0s;
+    width: 100%;
+    z-index: 99;
+    &:hover,
+    &:focus{
+    	opacity:1;
+    }
+}
+.cnt-home{
+	.product-micro{
+		.tag-micro{
+			width:30px;
+		    height:30px;
+		    font-size:11px;
+		    line-height:29px;
+		    top:5.5%;
+		}
+		.product-info{
+			.name{
+				font-size:15px;
+				margin-top:0px !important;
+			}
+			.product-price{
+				.price{
+					font-size:15px;
+				}
+			}
+			.action{
+				.lnk.btn.btn-primary{
+					font-size:12px;
+					line-height:1.7;
+				}
+			}
+		}
+	}
+}
