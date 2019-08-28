@@ -16,23 +16,23 @@ E-GIKOSH is a specialized online market place that operates as arealtime niche, 
 ## The Web Application Screengrabs.
 * Home Page
 
-![Home page](/home/emma/Documents/moringa-school-projects/E-GIKOSH/screen-grabs/home-page.png)
+![Home page](screen-grabs/home-page.png)
 
 * Items Section
 
-![Items section](/home/emma/Documents/moringa-school-projects/E-GIKOSH/screen-grabs/items.png)
+![Items section](screen-grabs/items.png)
 
 * User Registeration | Sign Up Page
 
-![User Sign Up](/home/emma/Documents/moringa-school-projects/E-GIKOSH/screen-grabs/login.png)
+![User Sign Up](screen-grabs/login.png)
 
 * User Profile Page
 
-![User Profile](/home/emma/Documents/moringa-school-projects/E-GIKOSH/screen-grabs/profile.png)
+![User Profile](screen-grabs/profile.png)
 
 * Tracking orders
 
-![Tracking orders](/home/emma/Documents/moringa-school-projects/E-GIKOSH/screen-grabs/track-order.png)
+![Tracking orders](screen-grabs/track-order.png)
 
 ## BDD
 
