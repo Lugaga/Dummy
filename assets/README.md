@@ -13,7 +13,26 @@
 
 E-GIKOSH is a specialized online market place that operates as arealtime niche, proof-based customer review system and an authentic centralized network for Gikomba Market businesses; organized by type of commodities, prices, quantity and stalls' location. 
 
-#### This is an AWWWARDS Web Application clone made with nothing but the sweet Django web framework.
+## The Web Application Screengrabs.
+* Home Page
+
+![Home page](screen-grabs/home-page.png)
+
+* Items Section
+
+![Items section](screen-grabs/items.png)
+
+* User Registeration | Sign Up Page
+
+![User Sign Up](screen-grabs/login.png)
+
+* User Profile Page
+
+![User Profile](screen-grabs/profile.png)
+
+* Tracking orders
+
+![Tracking orders](screen-grabs/track-order.png)
 
 ## BDD
 
@@ -25,9 +44,6 @@ E-GIKOSH is a specialized online market place that operates as arealtime niche, 
 | review a product| click review button below particular product | review and rate is added to the final star display of the product |
 | checkout | click procede to checkout button in cart items | Purchase the product |
 | create a wishlist| click heart shaped button beside product  | item is added to user's wishlist |
-
-
-## Setup/Installation Requirements
 
 
 ## Technologies Used
@@ -42,12 +58,12 @@ E-GIKOSH is a specialized online market place that operates as arealtime niche, 
 
 ## Support
 
-* Email: 
-  maureezgaga@outlook.com
-  petermax2004@gmail.com
-  emmasharon19@gmail.com
-  amwaniki180@gmail.com
-  francismuk@gmail.com
+### Email: 
+  * maureezgaga@outlook.com
+  * petermax2004@gmail.com
+  * emmasharon19@gmail.com
+  * amwaniki180@gmail.com
+  * francismuk@gmail.com
 
 ### License and Copyright details
 
